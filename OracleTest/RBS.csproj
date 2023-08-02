@@ -137,6 +137,7 @@
     <Content Include="Vendor\Vendor_Menu.aspx" />
     <Content Include="Vendor\Vendor_PurchesOrder1_Form.aspx" />
     <Content Include="Vendor\WebUserControl_Vend.ascx" />
+    <Content Include="Vigilance_Cases_Edit\Vigilance_Cases_Edit.aspx" />
     <Content Include="Web.config" />
     <Content Include="Call_Register_Edit.aspx" />
     <Content Include="WebUserControl1.ascx" />
@@ -366,6 +367,13 @@
     <Compile Include="Vendor\WebUserControl_Vend.ascx.cs">
       <DependentUpon>WebUserControl_Vend.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vigilance_Cases_Edit\Vigilance_Cases_Edit.aspx.cs">
+      <DependentUpon>Vigilance_Cases_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vigilance_Cases_Edit\Vigilance_Cases_Edit.aspx.designer.cs">
+      <DependentUpon>Vigilance_Cases_Edit.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebUserControl1.ascx.cs">
       <DependentUpon>WebUserControl1.ascx</DependentUpon>
