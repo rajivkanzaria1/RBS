@@ -241,7 +241,7 @@ function AfterCloseAll(){return}
 		Menu4_4_11=new Array("Rly Wise Outstanding Chased by NR","Reports/rptOutstanding.aspx?action=FNR","",0,20,200);
 		Menu4_4_12=new Array("RE Outstanding AU Wise","Reports/rptOutstanding.aspx?action=REF","",0,20,200);
 	Menu4_5=new Array("Receipts/Remitance/EFT/TDS/Service Tax/Write off/Retention Money","","",7,20,150);
-		Menu4_5_1=new Array("Client Wise Un-Posted/Partly Posted Cheques","Reports/pfrmCustomerAdvance.aspx?ACTION=B","",0,20,270);
+		Menu4_5_1=new Array("Client Wiseï¿½Un-Posted/Partly Posted Cheques","Reports/pfrmCustomerAdvance.aspx?ACTION=B","",0,20,270);
 		Menu4_5_2=new Array("Remittance Reports","Reports/rptRemittances.aspx?action=R","",0,20,250);
 		Menu4_5_3=new Array("Transfer & Receipts","","",4,20,250);
 				Menu4_5_3_1=new Array("Amount Adjustments of Old System","Reports/pfrmFromToDate.aspx?ACTION=BATOS","",0,20,250);

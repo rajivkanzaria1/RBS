@@ -105,7 +105,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Allow_Old_Bill_Date_Form.aspx" />
+    <Content Include="Bank_Form\Bank_Form.aspx" />
     <Content Include="Bill_Report.aspx" />
+    <Content Include="Complaint_Case_Detail_Search\Complaint_Case_Detail_Search.aspx" />
+    <Content Include="complaint_Entry1\complaint_Entry1.aspx" />
+    <Content Include="Complaint_Entry2\Complaint_Entry2.aspx" />
+    <Content Include="Complaint_Entry\Complaint_Entry.aspx" />
+    <Content Include="Consignee_Form\Consignee_Form.aspx" />
+    <Content Include="Consignee_Search_Form\Consignee_Search_Form.aspx" />
+    <Content Include="Hologram_Accountal_Form\Hologram_Accountal_Form.aspx" />
+    <Content Include="Hologram_Accountal_Search_Form\Hologram_Accountal_Search_Form.aspx" />
     <Content Include="IC_Cancel_Form.aspx" />
     <Content Include="Inspection_Certificate_Edit_Form.aspx" />
     <Content Include="Inspection_Fee_Bill_Edit.aspx" />
@@ -141,12 +150,75 @@
     <Compile Include="Allow_Old_Bill_Date_Form.aspx.designer.cs">
       <DependentUpon>Allow_Old_Bill_Date_Form.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Bank_Form\Bank_Form.aspx.cs">
+      <DependentUpon>Bank_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bank_Form\Bank_Form.aspx.designer.cs">
+      <DependentUpon>Bank_Form.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Bill_Report.aspx.cs">
       <DependentUpon>Bill_Report.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Bill_Report.aspx.designer.cs">
       <DependentUpon>Bill_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Complaint_Case_Detail_Search\Complaint_Case_Detail_Search.aspx.cs">
+      <DependentUpon>Complaint_Case_Detail_Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Complaint_Case_Detail_Search\Complaint_Case_Detail_Search.aspx.designer.cs">
+      <DependentUpon>Complaint_Case_Detail_Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="complaint_Entry1\complaint_Entry1.aspx.cs">
+      <DependentUpon>complaint_Entry1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="complaint_Entry1\complaint_Entry1.aspx.designer.cs">
+      <DependentUpon>complaint_Entry1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Complaint_Entry2\Complaint_Entry2.aspx.cs">
+      <DependentUpon>Complaint_Entry2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Complaint_Entry2\Complaint_Entry2.aspx.designer.cs">
+      <DependentUpon>Complaint_Entry2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Complaint_Entry\Complaint_Entry.aspx.cs">
+      <DependentUpon>Complaint_Entry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Complaint_Entry\Complaint_Entry.aspx.designer.cs">
+      <DependentUpon>Complaint_Entry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consignee_Form\Consignee_Form.aspx.cs">
+      <DependentUpon>Consignee_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consignee_Form\Consignee_Form.aspx.designer.cs">
+      <DependentUpon>Consignee_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consignee_Search_Form\Consignee_Search_Form.aspx.cs">
+      <DependentUpon>Consignee_Search_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consignee_Search_Form\Consignee_Search_Form.aspx.designer.cs">
+      <DependentUpon>Consignee_Search_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hologram_Accountal_Form\Hologram_Accountal_Form.aspx.cs">
+      <DependentUpon>Hologram_Accountal_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hologram_Accountal_Form\Hologram_Accountal_Form.aspx.designer.cs">
+      <DependentUpon>Hologram_Accountal_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hologram_Accountal_Search_Form\Hologram_Accountal_Search_Form.aspx.cs">
+      <DependentUpon>Hologram_Accountal_Search_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hologram_Accountal_Search_Form\Hologram_Accountal_Search_Form.aspx.designer.cs">
+      <DependentUpon>Hologram_Accountal_Search_Form.aspx</DependentUpon>
     </Compile>
     <Compile Include="IC_Cancel_Form.aspx.cs">
       <DependentUpon>IC_Cancel_Form.aspx</DependentUpon>
