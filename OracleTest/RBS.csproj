@@ -112,7 +112,7 @@
     <Content Include="Complaint_Entry2\Complaint_Entry2.aspx" />
     <Content Include="Complaint_Entry\Complaint_Entry.aspx" />
     <Content Include="Consignee_Form\Consignee_Form.aspx" />
-    <Content Include="Consignee_Search_Form\Consignee_Search_Form.aspx" />
+    <Content Include="Consignee_Search_Form.aspx" />
     <Content Include="Hologram_Accountal_Form.aspx" />
     <Content Include="Hologram_Accountal_Search_Form.aspx" />
     <Content Include="IC_Cancel_Form.aspx" />
@@ -200,11 +200,11 @@
     <Compile Include="Consignee_Form\Consignee_Form.aspx.designer.cs">
       <DependentUpon>Consignee_Form.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Consignee_Search_Form\Consignee_Search_Form.aspx.cs">
+    <Compile Include="Consignee_Search_Form.aspx.cs">
       <DependentUpon>Consignee_Search_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Consignee_Search_Form\Consignee_Search_Form.aspx.designer.cs">
+    <Compile Include="Consignee_Search_Form.aspx.designer.cs">
       <DependentUpon>Consignee_Search_Form.aspx</DependentUpon>
     </Compile>
     <Compile Include="Hologram_Accountal_Form.aspx.cs">
@@ -412,10 +412,7 @@
       <DependentUpon>WebUserControl_Vend.ascx.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Hologram_Accountal_Form\" />
-    <Folder Include="Hologram_Accountal_Search_Form\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
