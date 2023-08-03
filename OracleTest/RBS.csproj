@@ -113,8 +113,8 @@
     <Content Include="Complaint_Entry\Complaint_Entry.aspx" />
     <Content Include="Consignee_Form\Consignee_Form.aspx" />
     <Content Include="Consignee_Search_Form\Consignee_Search_Form.aspx" />
-    <Content Include="Hologram_Accountal_Form\Hologram_Accountal_Form.aspx" />
-    <Content Include="Hologram_Accountal_Search_Form\Hologram_Accountal_Search_Form.aspx" />
+    <Content Include="Hologram_Accountal_Form.aspx" />
+    <Content Include="Hologram_Accountal_Search_Form.aspx" />
     <Content Include="IC_Cancel_Form.aspx" />
     <Content Include="Inspection_Certificate_Edit_Form.aspx" />
     <Content Include="Inspection_Fee_Bill_Edit.aspx" />
@@ -207,18 +207,18 @@
     <Compile Include="Consignee_Search_Form\Consignee_Search_Form.aspx.designer.cs">
       <DependentUpon>Consignee_Search_Form.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Hologram_Accountal_Form\Hologram_Accountal_Form.aspx.cs">
+    <Compile Include="Hologram_Accountal_Form.aspx.cs">
       <DependentUpon>Hologram_Accountal_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Hologram_Accountal_Form\Hologram_Accountal_Form.aspx.designer.cs">
+    <Compile Include="Hologram_Accountal_Form.aspx.designer.cs">
       <DependentUpon>Hologram_Accountal_Form.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Hologram_Accountal_Search_Form\Hologram_Accountal_Search_Form.aspx.cs">
+    <Compile Include="Hologram_Accountal_Search_Form.aspx.cs">
       <DependentUpon>Hologram_Accountal_Search_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Hologram_Accountal_Search_Form\Hologram_Accountal_Search_Form.aspx.designer.cs">
+    <Compile Include="Hologram_Accountal_Search_Form.aspx.designer.cs">
       <DependentUpon>Hologram_Accountal_Search_Form.aspx</DependentUpon>
     </Compile>
     <Compile Include="IC_Cancel_Form.aspx.cs">
@@ -411,6 +411,10 @@
     <EmbeddedResource Include="Vendor\WebUserControl_Vend.ascx.resx">
       <DependentUpon>WebUserControl_Vend.ascx.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Hologram_Accountal_Form\" />
+    <Folder Include="Hologram_Accountal_Search_Form\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
