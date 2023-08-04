@@ -1,4 +1,6 @@
-<%@ Page Language="c#" Inherits="RBS.MainForm" CodeFile="MainForm.aspx.cs" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MainForm.aspx.cs" Inherits="RBS.MainForm.MainForm" %>
+
+
 <%@ Register TagPrefix="uc1" TagName="WebUserControl1" Src="WebUserControl1.ascx" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
@@ -426,7 +428,7 @@ function AfterCloseAll(){return}
 
 function Go(){return}
 
-		</script>
+        </script>
 		<script type='text/javascript' src='menu_com.js'></script>
 		<form id="Form1" method="post" runat="server">
 			<TABLE id="Table1" style="Z-INDEX: 101; LEFT: 8px; POSITION: absolute; TOP: 8px; HEIGHT: 100%"

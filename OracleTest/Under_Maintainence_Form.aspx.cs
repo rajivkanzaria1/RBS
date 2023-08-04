@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace RBS.Under_Maintainence_Form
+{
+	public class Under_Maintainence_Form1 : System.Web.UI.Page
+	{
+		protected System.Web.UI.WebControls.Label Label1;
+		protected System.Web.UI.WebControls.Label Label3;
+		protected System.Web.UI.WebControls.Label Label2;
+
+
+		private void Page_Load(object sender, System.EventArgs e)
+		{
+			// Put user code to initialize the page here
+			//			if (!(IsPostBack)) 
+			//			{ 
+			//				if(Convert.ToString(Request.QueryString["err"])=="")
+			//					Label2.Text="Their is an error in your previous page";
+			//				else
+			//                    Label2.Text = Request.QueryString["err"].ToString(); 
+			//			} 
+		}
+
+		#region Web Form Designer generated code
+		override protected void OnInit(EventArgs e)
+		{
+			//
+			// CODEGEN: This call is required by the ASP.NET Web Form Designer.
+			//
+			InitializeComponent();
+			base.OnInit(e);
+		}
+
+		/// <summary>
+		/// Required method for Designer support - do not modify
+		/// the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent()
+		{
+			this.Load += new System.EventHandler(this.Page_Load);
+
+		}
+		#endregion
+	}
+}

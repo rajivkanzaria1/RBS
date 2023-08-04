@@ -48,10 +48,58 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\External DLL\Controls.dll</HintPath>
     </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Design">
+      <HintPath>C:\Users\BAPS\Desktop\CrystalDecisions.CrystalReports.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine">
+      <HintPath>C:\Users\BAPS\Desktop\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalDecisions.Shared.1.0.0\lib\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalDecisions.Web.1.0.1\lib\CrystalDecisions.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="DotVVM.Contrib, Version=2.3.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotVVM.Contrib.CrystalReportViewer.2.3.2\lib\net451\DotVVM.Contrib.dll</HintPath>
+    </Reference>
+    <Reference Include="DotVVM.Core, Version=2.3.1.0, Culture=neutral, PublicKeyToken=23f3607db32275da, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotVVM.Core.2.3.1\lib\net451\DotVVM.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DotVVM.Framework, Version=2.3.1.0, Culture=neutral, PublicKeyToken=23f3607db32275da, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotVVM.2.3.1\lib\net451\DotVVM.Framework.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CodeAnalysis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeAnalysis.Common.1.0.0\lib\net45\Microsoft.CodeAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeAnalysis.CSharp.1.0.0\lib\net45\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.1.0.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.1.0.0\lib\netstandard1.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.1.0.0\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.PowerBI.Api, Version=4.15.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.PowerBI.Api.4.15.0\lib\net48\Microsoft.PowerBI.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Rest.ClientRuntime, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Rest.ClientRuntime.2.3.21\lib\net461\Microsoft.Rest.ClientRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Oracle.DataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64" />
     <Reference Include="Oracle.ManagedDataAccess, Version=4.122.21.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
       <HintPath>..\packages\Oracle.ManagedDataAccess.21.10.0\lib\net462\Oracle.ManagedDataAccess.dll</HintPath>
@@ -59,17 +107,54 @@
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
+    <Reference Include="System.Collections.Immutable, Version=1.1.36.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.1.36\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Linq, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.4.1.0\lib\net463\System.Linq.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Expressions.4.1.0\lib\net463\System.Linq.Expressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
     </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.WebRequest" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
     </Reference>
+    <Reference Include="System.Reflection, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.4.1.0\lib\net462\System.Reflection.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Metadata, Version=1.0.21.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.Metadata.1.0.21\lib\portable-net45+win8\System.Reflection.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.1.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Extensions.4.1.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Text.Encodings.Web.6.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
     </Reference>
@@ -104,31 +189,243 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About_us.aspx" />
+    <Content Include="About_us_Hindi.aspx" />
     <Content Include="Allow_Old_Bill_Date_Form.aspx" />
-    <Content Include="Bank_Form\Bank_Form.aspx" />
+    <Content Include="Awards.aspx" />
+    <Content Include="Bank_Form.aspx" />
+    <Content Include="BE_Target_Form.aspx" />
+    <Content Include="Billing_Adjustment_Form.aspx" />
+    <Content Include="Bill_Finalisation_Form.aspx" />
+    <Content Include="Bill_Paying_Officer_Form.aspx" />
     <Content Include="Bill_Report.aspx" />
-    <Content Include="Complaint_Case_Detail_Search\Complaint_Case_Detail_Search.aspx" />
-    <Content Include="complaint_Entry1\complaint_Entry1.aspx" />
-    <Content Include="Complaint_Entry2\Complaint_Entry2.aspx" />
-    <Content Include="Complaint_Entry\Complaint_Entry.aspx" />
-    <Content Include="Consignee_Form\Consignee_Form.aspx" />
-    <Content Include="Consignee_Search_Form\Consignee_Search_Form.aspx" />
-    <Content Include="Hologram_Accountal_Form\Hologram_Accountal_Form.aspx" />
-    <Content Include="Hologram_Accountal_Search_Form\Hologram_Accountal_Search_Form.aspx" />
+    <Content Include="BPO_List.aspx" />
+    <Content Include="BPO_WISE_BC_Report.aspx" />
+    <Content Include="BPO_WISE_BILL_CHECK.aspx" />
+    <Content Include="Calls_Marked.aspx" />
+    <Content Include="Calls_Marked_For_Specific_PO.aspx" />
+    <Content Include="Calls_Marked_Report.aspx" />
+    <Content Include="Calls_Marked_To_IE.aspx" />
+    <Content Include="Calls_Upload.aspx" />
+    <Content Include="Call_Cancellation_Codes.aspx" />
+    <Content Include="Call_Cancellation_Form.aspx" />
+    <Content Include="Call_Details_Form.aspx" />
+    <Content Include="Call_Details_Form_For_Vendors_Query.aspx" />
+    <Content Include="Call_Register_Form.aspx" />
+    <Content Include="Call_Remarking_List.aspx" />
+    <Content Include="Call_Remark_Form.aspx" />
+    <Content Include="Call_Return_Form.aspx" />
+    <Content Include="Call_Status_Edit_Form.aspx" />
+    <Content Include="Call_Status_Edit_Form_Admin.aspx" />
+    <Content Include="CaseNoBPOforAdvancedCheque.aspx" />
+    <Content Include="Case_Correspondence _Form.aspx" />
+    <Content Include="Central_QOII.aspx" />
+    <Content Include="Central_QOI_Form.aspx" />
+    <Content Include="ChangeT20_Consignee.aspx" />
+    <Content Include="Change_Client_Pwd_Form.aspx" />
+    <Content Include="Change_IE_Pwd_Form.aspx" />
+    <Content Include="Change_LO_Pwd_Form.aspx" />
+    <Content Include="Change_Pwd_Form.aspx" />
+    <Content Include="CheckSheets_Form.aspx" />
+    <Content Include="Check_Posting_Form.aspx" />
+    <Content Include="City_Form.aspx" />
+    <Content Include="Clients_Contact.aspx" />
+    <Content Include="Clients_Registration.aspx" />
+    <Content Include="ClientWiseControlling.aspx" />
+    <Content Include="Client_Calls_Marked_For_Specific_PO.aspx" />
+    <Content Include="Client_Feedback_Form.aspx" />
+    <Content Include="Client_Login_Form.aspx" />
+    <Content Include="Client_MainForm.aspx" />
+    <Content Include="CLIENT_MA_FORM.aspx" />
+    <Content Include="Client_MA_LIST.aspx" />
+    <Content Include="Cluster_Master.aspx" />
+    <Content Include="CMIEWiseCancellationAcceptance_Form.aspx" />
+    <Content Include="Complaint_Case_Detail_Search.aspx" />
+    <Content Include="complaint_Entry1.aspx" />
+    <Content Include="Complaint_Entry2.aspx" />
+    <Content Include="Complaint_Entry.aspx" />
+    <Content Include="Consignee_Form.aspx" />
+    <Content Include="Consignee_Search_Form.aspx" />
+    <Content Include="Contracts_Form.aspx" />
+    <Content Include="Copy of IE_JI_Remarks_Entry_Form.aspx" />
+    <Content Include="Correction_To_Inspection_Certificate_Edit_Form.aspx" />
+    <Content Include="Credit_Doc_upd.aspx" />
+    <Content Include="Credit_Doc_Upd_Lab.aspx" />
+    <Content Include="CRIS_Bills_Gen_Reg_Wise.aspx" />
+    <Content Include="CrystalReportViewerPage.aspx" />
+    <Content Include="CR_Bill_Search_Form.aspx" />
+    <Content Include="Cr_rejection.aspx" />
+    <Content Include="DEO_CRIS_PurchesOrder1_Form.aspx" />
+    <Content Include="DEO_CRIS_PurchesOrderDetails.aspx" />
+    <Content Include="DEO_CRIS_PurchesOrder_Form.aspx" />
+    <Content Include="DEO_CRIS_PurchesOrder_MA_Form.aspx" />
+    <Content Include="DEO_CRIS_PurchesOrder_MA_Form_WCaseNo.aspx" />
+    <Content Include="DEO_Vendor_PurchesOrder1_Form.aspx" />
+    <Content Include="DEO_Vendor_PurchesOrderDetails.aspx" />
+    <Content Include="DEO_Vendor_PurchesOrder_Form.aspx" />
+    <Content Include="Designation_Form.aspx" />
+    <Content Include="Download_CheckSheet.aspx" />
+    <Content Include="Download_Documents.aspx" />
+    <Content Include="Edit_PO_Date.aspx" />
+    <Content Include="EFT.aspx" />
+    <Content Include="Email.aspx" />
+    <Content Include="ERP_Problems_Form.aspx" />
+    <Content Include="Error_Form.aspx" />
+    <Content Include="Expenditure_Form.aspx" />
+    <Content Include="FIRST_PAGE1.aspx" />
+    <Content Include="Highlights_Form.aspx" />
+    <Content Include="Hologram_Accountal_Form.aspx" />
+    <Content Include="Hologram_Accountal_Search_Form.aspx" />
+    <Content Include="Hologram_Cancel_Form.aspx" />
+    <Content Include="Hologram_Form.aspx" />
+    <Content Include="IC_Bookset_Form.aspx" />
+    <Content Include="IC_BookSet_Search_Form1.aspx" />
     <Content Include="IC_Cancel_Form.aspx" />
+    <Content Include="IC_DETAILS.aspx" />
+    <Content Include="IC_InspectionTstPln.aspx" />
+    <Content Include="IC_Receipt.aspx" />
+    <Content Include="IE_ALTIE_REPORT.aspx" />
+    <Content Include="IE_Claim_Form.aspx" />
+    <Content Include="IE_Claim_Search.aspx" />
+    <Content Include="IE_CLUSTER.aspx" />
+    <Content Include="IE_Contact_No.aspx" />
+    <Content Include="IE_CO_Form.aspx" />
+    <Content Include="IE_Daily_Work_Plan.aspx" />
+    <Content Include="IE_Form.aspx" />
+    <Content Include="IE_IC_Photo_Enclosed.aspx" />
+    <Content Include="IE_IC_Photo_Upload.aspx" />
+    <Content Include="IE_Instructions.aspx" />
+    <Content Include="IE_Instructions_Admin.aspx" />
+    <Content Include="IE_JI_Remarks_Entry_Form.aspx" />
+    <Content Include="IE_JI_Remarks_Pending_Form.aspx" />
+    <Content Include="IE_Login_Form.aspx" />
+    <Content Include="IE_Login_Form_Test.aspx" />
+    <Content Include="IE_Marked_To_Vendor.aspx" />
+    <Content Include="IE_MAXIMUMCALLLIMIT.aspx" />
+    <Content Include="IE_Menu.aspx" />
+    <Content Include="IE_NC_Edit_Form.aspx" />
+    <Content Include="IE_Search_Form.aspx" />
+    <Content Include="Incoming_Dak_Edit.aspx" />
+    <Content Include="Incoming_Dak_Form.aspx" />
     <Content Include="Inspection_Certificate_Edit_Form.aspx" />
+    <Content Include="Inspection_Certificate_Form.aspx" />
+    <Content Include="Inspection_Fee_Bill.aspx" />
     <Content Include="Inspection_Fee_Bill_Edit.aspx" />
+    <Content Include="Instruction_Page.aspx" />
+    <Content Include="Instruction_Page_Hindi.aspx" />
+    <Content Include="InterUnit_Advice.aspx" />
+    <Content Include="InterUnit_Reciept.aspx" />
     <Content Include="InterUnit_Transfer.aspx" />
+    <Content Include="JI.aspx" />
+    <Content Include="JI_Request_Form.aspx" />
+    <Content Include="Laboratory_Master_Form.aspx" />
+    <Content Include="Laboratory_Search_Form.aspx" />
+    <Content Include="Lab_Billing_Form.aspx" />
+    <Content Include="LAB_Bill_Finalisation_Form.aspx" />
+    <Content Include="Lab_Invoice.aspx" />
     <Content Include="Lab_Menu.aspx" />
+    <Content Include="Lab_Menu_WR.aspx" />
+    <Content Include="Lab_Payments_Edit_Form.aspx" />
+    <Content Include="Lab_Payments_Form.aspx" />
+    <Content Include="Lab_Payment_Approve_Form.aspx" />
+    <Content Include="Lab_Pyament_List.aspx" />
+    <Content Include="Lab_Register_Edit.aspx" />
+    <Content Include="Lab_Register_Form.aspx" />
+    <Content Include="Lab_Sample_Info.aspx" />
+    <Content Include="Lab_Sample_Info_Details.aspx" />
+    <Content Include="Lab_TDS_Entry_Form.aspx" />
     <Content Include="Login_Form1.aspx" />
+    <Content Include="Login_Form.aspx" />
+    <Content Include="LogOut.aspx" />
+    <Content Include="LO_Bill_Remarks.aspx" />
+    <Content Include="LO_Registration.aspx" />
+    <Content Include="MainForm2.aspx" />
     <Content Include="MainForm.aspx" />
+    <Content Include="MainPage.aspx" />
+    <Content Include="MainPage_Hindi_New.aspx" />
+    <Content Include="Master_Items_Form.aspx" />
+    <Content Include="Master_Items_PL_Form.aspx" />
+    <Content Include="MA_APPROVE_FORM.aspx" />
+    <Content Include="MA_VENDOR_LIST.aspx" />
     <Content Include="menu_com.js" />
+    <Content Include="Multiple_Inspection_Certificate_Form.aspx" />
+    <Content Include="New_Login_Form.aspx" />
+    <Content Include="OldOutstandingClientWise.aspx" />
+    <Content Include="old_Login_Form.aspx" />
+    <Content Include="Ongoing_Contracts_Edit.aspx" />
+    <Content Include="Ongoing_Contract_Form.aspx" />
+    <Content Include="Onliine_Complaints_Form.aspx" />
+    <Content Include="Online_complaints_Approval_Form.aspx" />
+    <Content Include="Online_Payment_Reciept.aspx" />
+    <Content Include="Our_Clients.aspx" />
+    <Content Include="Our_Clients_Hindi.aspx" />
+    <Content Include="Our_Committement.aspx" />
+    <Content Include="Our_Resources_Hindi.aspx" />
+    <Content Include="Outstanding_LY_Form.aspx" />
+    <Content Include="Page2.aspx" />
+    <Content Include="Photo_Gallery.aspx" />
+    <Content Include="Photo_Gallery_Hindi.aspx" />
+    <Content Include="PKIDATA.aspx" />
+    <Content Include="PKIVERIFY.aspx" />
+    <Content Include="PopUp.aspx" />
+    <Content Include="Print_Bank_Statement_Voucher.aspx" />
+    <Content Include="Print_Call_Items.aspx" />
+    <Content Include="Print_Call_Letter.aspx" />
+    <Content Include="Print_Lab_Payment_Voucher.aspx" />
+    <Content Include="prmOLD_Contract.aspx" />
     <Content Include="ProductPage\UCBullGearforWag9.ascx" />
+    <Content Include="Purchaser_Form.aspx" />
+    <Content Include="Purchaser_Search_Form.aspx" />
     <Content Include="PurchesOrder1_Form.aspx" />
+    <Content Include="PurchesOrderDetails.aspx" />
     <Content Include="PurchesOrder_Form.aspx" />
+    <Content Include="QA_VEDIO.aspx" />
+    <Content Include="Quality_Manual_Procedures.aspx" />
+    <Content Include="Railways_Form.aspx" />
+    <Content Include="Rail_Price_Form.aspx" />
+    <Content Include="Reciepts_Edit_Form.aspx" />
+    <Content Include="Reciepts_Form.aspx" />
+    <Content Include="Region_Selection_Form.aspx" />
+    <Content Include="Replace_BPO.aspx" />
+    <Content Include="Replace_Cheques_Form.aspx" />
+    <Content Include="Report_BPO_WISE_BILL_CHECK.aspx" />
+    <Content Include="Resources_Form.aspx" />
+    <Content Include="Returned_Bills_BPO_Change_Form.aspx" />
+    <Content Include="RKM_PurchesOrder_Form.aspx" />
+    <Content Include="Rly_Designation_Form.aspx" />
+    <Content Include="Rly_Online_Check_Posting_Form.aspx" />
+    <Content Include="rptIEWiseCallDetails.aspx" />
+    <Content Include="rptPrint_Bill_Nos.aspx" />
+    <Content Include="RV_Entry.aspx" />
+    <Content Include="RV_Main.aspx" />
+    <Content Include="R_Login_Form.aspx" />
+    <Content Include="SAP_Billing_Entry_Form.aspx" />
+    <Content Include="SAP_Realisation_Entry_Form.aspx" />
     <Content Include="Search_Form.aspx" />
+    <Content Include="Search_Payments.aspx" />
+    <Content Include="Service_Spectrum.aspx" />
+    <Content Include="Service_Spectrum_Hindi.aspx" />
+    <Content Include="Session_Expired.aspx" />
+    <Content Include="Session_Expired_Client.aspx" />
+    <Content Include="Super_Surpirse_Form.aspx" />
+    <Content Include="TDS.aspx" />
+    <Content Include="Tech_Ref_Form.aspx" />
+    <Content Include="TermsandConditions.aspx" />
+    <Content Include="Training_Excel.aspx" />
+    <Content Include="Training_Form.aspx" />
+    <Content Include="T_PurchesOrderDetails.aspx" />
+    <Content Include="UnAuthorised_User_Message.aspx" />
+    <Content Include="Under_Maintainence_Form.aspx" />
     <Content Include="Unregistered_Calls.aspx" />
+    <Content Include="UOM_Form.aspx" />
+    <Content Include="UpdateBillsFromExcel.aspx" />
+    <Content Include="UpdateBillsFromExcel_Lab.aspx" />
     <Content Include="Update_Bill_Status.aspx" />
+    <Content Include="Upload_CheckSheet.aspx" />
+    <Content Include="User_Administration.aspx" />
+    <Content Include="User_Delete.aspx" />
+    <Content Include="User_Edit.aspx" />
+    <Content Include="VENDERCLUSTERIE.aspx" />
     <Content Include="Vendor\Call_Register_Edit.aspx" />
     <Content Include="Vendor\PurchesOrder1_LOA.aspx" />
     <Content Include="Vendor\Vendor_Call_Register_Edit.aspx" />
@@ -137,13 +434,32 @@
     <Content Include="Vendor\Vendor_Menu.aspx" />
     <Content Include="Vendor\Vendor_PurchesOrder1_Form.aspx" />
     <Content Include="Vendor\WebUserControl_Vend.ascx" />
-    <Content Include="Vigilance_Cases_Edit\Vigilance_Cases_Edit.aspx" />
+    <Content Include="Vendor_Call_Register_Form.aspx" />
+    <Content Include="VENDOR_CLUSTER.aspx" />
+    <Content Include="Vendor_Feedback_Form.aspx" />
+    <Content Include="Vendor_Search_Form.aspx" />
+    <Content Include="Vigilance_Cases_Edit.aspx" />
     <Content Include="Web.config" />
     <Content Include="Call_Register_Edit.aspx" />
     <Content Include="WebUserControl1.ascx" />
     <Content Include="WebUserControl3.ascx" />
+    <Content Include="xPurchesOrderDetails.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About_us.aspx.cs">
+      <DependentUpon>About_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About_us.aspx.designer.cs">
+      <DependentUpon>About_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About_us_Hindi.aspx.cs">
+      <DependentUpon>About_us_Hindi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About_us_Hindi.aspx.designer.cs">
+      <DependentUpon>About_us_Hindi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Allow_Old_Bill_Date_Form.aspx.cs">
       <DependentUpon>Allow_Old_Bill_Date_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -151,12 +467,47 @@
     <Compile Include="Allow_Old_Bill_Date_Form.aspx.designer.cs">
       <DependentUpon>Allow_Old_Bill_Date_Form.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Bank_Form\Bank_Form.aspx.cs">
+    <Compile Include="Awards.aspx.cs">
+      <DependentUpon>Awards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Awards.aspx.designer.cs">
+      <DependentUpon>Awards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bank_Form.aspx.cs">
       <DependentUpon>Bank_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Bank_Form\Bank_Form.aspx.designer.cs">
+    <Compile Include="Bank_Form.aspx.designer.cs">
       <DependentUpon>Bank_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BE_Target_Form.aspx.cs">
+      <DependentUpon>BE_Target_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BE_Target_Form.aspx.designer.cs">
+      <DependentUpon>BE_Target_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing_Adjustment_Form.aspx.cs">
+      <DependentUpon>Billing_Adjustment_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Billing_Adjustment_Form.aspx.designer.cs">
+      <DependentUpon>Billing_Adjustment_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_Finalisation_Form.aspx.cs">
+      <DependentUpon>Bill_Finalisation_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bill_Finalisation_Form.aspx.designer.cs">
+      <DependentUpon>Bill_Finalisation_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_Paying_Officer_Form.aspx.cs">
+      <DependentUpon>Bill_Paying_Officer_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bill_Paying_Officer_Form.aspx.designer.cs">
+      <DependentUpon>Bill_Paying_Officer_Form.aspx</DependentUpon>
     </Compile>
     <Compile Include="Bill_Report.aspx.cs">
       <DependentUpon>Bill_Report.aspx</DependentUpon>
@@ -165,61 +516,572 @@
     <Compile Include="Bill_Report.aspx.designer.cs">
       <DependentUpon>Bill_Report.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Complaint_Case_Detail_Search\Complaint_Case_Detail_Search.aspx.cs">
+    <Compile Include="BPO_List.aspx.cs">
+      <DependentUpon>BPO_List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BPO_List.aspx.designer.cs">
+      <DependentUpon>BPO_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BPO_WISE_BC_Report.aspx.cs">
+      <DependentUpon>BPO_WISE_BC_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BPO_WISE_BC_Report.aspx.designer.cs">
+      <DependentUpon>BPO_WISE_BC_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BPO_WISE_BILL_CHECK.aspx.cs">
+      <DependentUpon>BPO_WISE_BILL_CHECK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BPO_WISE_BILL_CHECK.aspx.designer.cs">
+      <DependentUpon>BPO_WISE_BILL_CHECK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calls_Marked.aspx.cs">
+      <DependentUpon>Calls_Marked.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calls_Marked.aspx.designer.cs">
+      <DependentUpon>Calls_Marked.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calls_Marked_For_Specific_PO.aspx.cs">
+      <DependentUpon>Calls_Marked_For_Specific_PO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calls_Marked_For_Specific_PO.aspx.designer.cs">
+      <DependentUpon>Calls_Marked_For_Specific_PO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calls_Marked_Report.aspx.cs">
+      <DependentUpon>Calls_Marked_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calls_Marked_Report.aspx.designer.cs">
+      <DependentUpon>Calls_Marked_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calls_Marked_To_IE.aspx.cs">
+      <DependentUpon>Calls_Marked_To_IE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calls_Marked_To_IE.aspx.designer.cs">
+      <DependentUpon>Calls_Marked_To_IE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calls_Upload.aspx.cs">
+      <DependentUpon>Calls_Upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calls_Upload.aspx.designer.cs">
+      <DependentUpon>Calls_Upload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Call_Cancellation_Codes.aspx.cs">
+      <DependentUpon>Call_Cancellation_Codes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Call_Cancellation_Codes.aspx.designer.cs">
+      <DependentUpon>Call_Cancellation_Codes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Call_Cancellation_Form.aspx.cs">
+      <DependentUpon>Call_Cancellation_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Call_Cancellation_Form.aspx.designer.cs">
+      <DependentUpon>Call_Cancellation_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Call_Details_Form.aspx.cs">
+      <DependentUpon>Call_Details_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Call_Details_Form.aspx.designer.cs">
+      <DependentUpon>Call_Details_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Call_Details_Form_For_Vendors_Query.aspx.cs">
+      <DependentUpon>Call_Details_Form_For_Vendors_Query.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Call_Details_Form_For_Vendors_Query.aspx.designer.cs">
+      <DependentUpon>Call_Details_Form_For_Vendors_Query.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Call_Register_Form.aspx.cs">
+      <DependentUpon>Call_Register_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Call_Register_Form.aspx.designer.cs">
+      <DependentUpon>Call_Register_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Call_Remarking_List.aspx.cs">
+      <DependentUpon>Call_Remarking_List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Call_Remarking_List.aspx.designer.cs">
+      <DependentUpon>Call_Remarking_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Call_Remark_Form.aspx.cs">
+      <DependentUpon>Call_Remark_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Call_Remark_Form.aspx.designer.cs">
+      <DependentUpon>Call_Remark_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Call_Return_Form.aspx.cs">
+      <DependentUpon>Call_Return_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Call_Return_Form.aspx.designer.cs">
+      <DependentUpon>Call_Return_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Call_Status_Edit_Form.aspx.cs">
+      <DependentUpon>Call_Status_Edit_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Call_Status_Edit_Form.aspx.designer.cs">
+      <DependentUpon>Call_Status_Edit_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Call_Status_Edit_Form_Admin.aspx.cs">
+      <DependentUpon>Call_Status_Edit_Form_Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Call_Status_Edit_Form_Admin.aspx.designer.cs">
+      <DependentUpon>Call_Status_Edit_Form_Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CaseNoBPOforAdvancedCheque.aspx.cs">
+      <DependentUpon>CaseNoBPOforAdvancedCheque.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaseNoBPOforAdvancedCheque.aspx.designer.cs">
+      <DependentUpon>CaseNoBPOforAdvancedCheque.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Case_Correspondence _Form.aspx.cs">
+      <DependentUpon>Case_Correspondence _Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Case_Correspondence _Form.aspx.designer.cs">
+      <DependentUpon>Case_Correspondence _Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Central_QOII.aspx.cs">
+      <DependentUpon>Central_QOII.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Central_QOII.aspx.designer.cs">
+      <DependentUpon>Central_QOII.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Central_QOI_Form.aspx.cs">
+      <DependentUpon>Central_QOI_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Central_QOI_Form.aspx.designer.cs">
+      <DependentUpon>Central_QOI_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeT20_Consignee.aspx.cs">
+      <DependentUpon>ChangeT20_Consignee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangeT20_Consignee.aspx.designer.cs">
+      <DependentUpon>ChangeT20_Consignee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Change_Client_Pwd_Form.aspx.cs">
+      <DependentUpon>Change_Client_Pwd_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Change_Client_Pwd_Form.aspx.designer.cs">
+      <DependentUpon>Change_Client_Pwd_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Change_IE_Pwd_Form.aspx.cs">
+      <DependentUpon>Change_IE_Pwd_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Change_IE_Pwd_Form.aspx.designer.cs">
+      <DependentUpon>Change_IE_Pwd_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Change_LO_Pwd_Form.aspx.cs">
+      <DependentUpon>Change_LO_Pwd_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Change_LO_Pwd_Form.aspx.designer.cs">
+      <DependentUpon>Change_LO_Pwd_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Change_Pwd_Form.aspx.cs">
+      <DependentUpon>Change_Pwd_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Change_Pwd_Form.aspx.designer.cs">
+      <DependentUpon>Change_Pwd_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckSheets_Form.aspx.cs">
+      <DependentUpon>CheckSheets_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckSheets_Form.aspx.designer.cs">
+      <DependentUpon>CheckSheets_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Check_Posting_Form.aspx.cs">
+      <DependentUpon>Check_Posting_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Check_Posting_Form.aspx.designer.cs">
+      <DependentUpon>Check_Posting_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="City_Form.aspx.cs">
+      <DependentUpon>City_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="City_Form.aspx.designer.cs">
+      <DependentUpon>City_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients_Contact.aspx.cs">
+      <DependentUpon>Clients_Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients_Contact.aspx.designer.cs">
+      <DependentUpon>Clients_Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients_Registration.aspx.cs">
+      <DependentUpon>Clients_Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients_Registration.aspx.designer.cs">
+      <DependentUpon>Clients_Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClientWiseControlling.aspx.cs">
+      <DependentUpon>ClientWiseControlling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClientWiseControlling.aspx.designer.cs">
+      <DependentUpon>ClientWiseControlling.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client_Calls_Marked_For_Specific_PO.aspx.cs">
+      <DependentUpon>Client_Calls_Marked_For_Specific_PO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client_Calls_Marked_For_Specific_PO.aspx.designer.cs">
+      <DependentUpon>Client_Calls_Marked_For_Specific_PO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client_Feedback_Form.aspx.cs">
+      <DependentUpon>Client_Feedback_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client_Feedback_Form.aspx.designer.cs">
+      <DependentUpon>Client_Feedback_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client_Login_Form.aspx.cs">
+      <DependentUpon>Client_Login_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client_Login_Form.aspx.designer.cs">
+      <DependentUpon>Client_Login_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client_MainForm.aspx.cs">
+      <DependentUpon>Client_MainForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client_MainForm.aspx.designer.cs">
+      <DependentUpon>Client_MainForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CLIENT_MA_FORM.aspx.cs">
+      <DependentUpon>CLIENT_MA_FORM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CLIENT_MA_FORM.aspx.designer.cs">
+      <DependentUpon>CLIENT_MA_FORM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client_MA_LIST.aspx.cs">
+      <DependentUpon>Client_MA_LIST.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client_MA_LIST.aspx.designer.cs">
+      <DependentUpon>Client_MA_LIST.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cluster_Master.aspx.cs">
+      <DependentUpon>Cluster_Master.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cluster_Master.aspx.designer.cs">
+      <DependentUpon>Cluster_Master.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CMIEWiseCancellationAcceptance_Form.aspx.cs">
+      <DependentUpon>CMIEWiseCancellationAcceptance_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CMIEWiseCancellationAcceptance_Form.aspx.designer.cs">
+      <DependentUpon>CMIEWiseCancellationAcceptance_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Complaint_Case_Detail_Search.aspx.cs">
       <DependentUpon>Complaint_Case_Detail_Search.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Complaint_Case_Detail_Search\Complaint_Case_Detail_Search.aspx.designer.cs">
+    <Compile Include="Complaint_Case_Detail_Search.aspx.designer.cs">
       <DependentUpon>Complaint_Case_Detail_Search.aspx</DependentUpon>
     </Compile>
-    <Compile Include="complaint_Entry1\complaint_Entry1.aspx.cs">
+    <Compile Include="complaint_Entry1.aspx.cs">
       <DependentUpon>complaint_Entry1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="complaint_Entry1\complaint_Entry1.aspx.designer.cs">
+    <Compile Include="complaint_Entry1.aspx.designer.cs">
       <DependentUpon>complaint_Entry1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Complaint_Entry2\Complaint_Entry2.aspx.cs">
+    <Compile Include="Complaint_Entry2.aspx.cs">
       <DependentUpon>Complaint_Entry2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Complaint_Entry2\Complaint_Entry2.aspx.designer.cs">
+    <Compile Include="Complaint_Entry2.aspx.designer.cs">
       <DependentUpon>Complaint_Entry2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Complaint_Entry\Complaint_Entry.aspx.cs">
+    <Compile Include="Complaint_Entry.aspx.cs">
       <DependentUpon>Complaint_Entry.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Complaint_Entry\Complaint_Entry.aspx.designer.cs">
+    <Compile Include="Complaint_Entry.aspx.designer.cs">
       <DependentUpon>Complaint_Entry.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Consignee_Form\Consignee_Form.aspx.cs">
+    <Compile Include="Consignee_Form.aspx.cs">
       <DependentUpon>Consignee_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Consignee_Form\Consignee_Form.aspx.designer.cs">
+    <Compile Include="Consignee_Form.aspx.designer.cs">
       <DependentUpon>Consignee_Form.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Consignee_Search_Form\Consignee_Search_Form.aspx.cs">
+    <Compile Include="Consignee_Search_Form.aspx.cs">
       <DependentUpon>Consignee_Search_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Consignee_Search_Form\Consignee_Search_Form.aspx.designer.cs">
+    <Compile Include="Consignee_Search_Form.aspx.designer.cs">
       <DependentUpon>Consignee_Search_Form.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Hologram_Accountal_Form\Hologram_Accountal_Form.aspx.cs">
+    <Compile Include="Contracts_Form.aspx.cs">
+      <DependentUpon>Contracts_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contracts_Form.aspx.designer.cs">
+      <DependentUpon>Contracts_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Copy of IE_JI_Remarks_Entry_Form.aspx.cs">
+      <DependentUpon>Copy of IE_JI_Remarks_Entry_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Copy of IE_JI_Remarks_Entry_Form.aspx.designer.cs">
+      <DependentUpon>Copy of IE_JI_Remarks_Entry_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Correction_To_Inspection_Certificate_Edit_Form.aspx.cs">
+      <DependentUpon>Correction_To_Inspection_Certificate_Edit_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Correction_To_Inspection_Certificate_Edit_Form.aspx.designer.cs">
+      <DependentUpon>Correction_To_Inspection_Certificate_Edit_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Credit_Doc_upd.aspx.cs">
+      <DependentUpon>Credit_Doc_upd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Credit_Doc_upd.aspx.designer.cs">
+      <DependentUpon>Credit_Doc_upd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Credit_Doc_Upd_Lab.aspx.cs">
+      <DependentUpon>Credit_Doc_Upd_Lab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Credit_Doc_Upd_Lab.aspx.designer.cs">
+      <DependentUpon>Credit_Doc_Upd_Lab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CRIS_Bills_Gen_Reg_Wise.aspx.cs">
+      <DependentUpon>CRIS_Bills_Gen_Reg_Wise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CRIS_Bills_Gen_Reg_Wise.aspx.designer.cs">
+      <DependentUpon>CRIS_Bills_Gen_Reg_Wise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReportViewerPage.aspx.cs">
+      <DependentUpon>CrystalReportViewerPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrystalReportViewerPage.aspx.designer.cs">
+      <DependentUpon>CrystalReportViewerPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CR_Bill_Search_Form.aspx.cs">
+      <DependentUpon>CR_Bill_Search_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CR_Bill_Search_Form.aspx.designer.cs">
+      <DependentUpon>CR_Bill_Search_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cr_rejection.aspx.cs">
+      <DependentUpon>Cr_rejection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cr_rejection.aspx.designer.cs">
+      <DependentUpon>Cr_rejection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DEO_CRIS_PurchesOrder1_Form.aspx.cs">
+      <DependentUpon>DEO_CRIS_PurchesOrder1_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DEO_CRIS_PurchesOrder1_Form.aspx.designer.cs">
+      <DependentUpon>DEO_CRIS_PurchesOrder1_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DEO_CRIS_PurchesOrderDetails.aspx.cs">
+      <DependentUpon>DEO_CRIS_PurchesOrderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DEO_CRIS_PurchesOrderDetails.aspx.designer.cs">
+      <DependentUpon>DEO_CRIS_PurchesOrderDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DEO_CRIS_PurchesOrder_Form.aspx.cs">
+      <DependentUpon>DEO_CRIS_PurchesOrder_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DEO_CRIS_PurchesOrder_Form.aspx.designer.cs">
+      <DependentUpon>DEO_CRIS_PurchesOrder_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DEO_CRIS_PurchesOrder_MA_Form.aspx.cs">
+      <DependentUpon>DEO_CRIS_PurchesOrder_MA_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DEO_CRIS_PurchesOrder_MA_Form.aspx.designer.cs">
+      <DependentUpon>DEO_CRIS_PurchesOrder_MA_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DEO_CRIS_PurchesOrder_MA_Form_WCaseNo.aspx.cs">
+      <DependentUpon>DEO_CRIS_PurchesOrder_MA_Form_WCaseNo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DEO_CRIS_PurchesOrder_MA_Form_WCaseNo.aspx.designer.cs">
+      <DependentUpon>DEO_CRIS_PurchesOrder_MA_Form_WCaseNo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DEO_Vendor_PurchesOrder1_Form.aspx.cs">
+      <DependentUpon>DEO_Vendor_PurchesOrder1_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DEO_Vendor_PurchesOrder1_Form.aspx.designer.cs">
+      <DependentUpon>DEO_Vendor_PurchesOrder1_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DEO_Vendor_PurchesOrderDetails.aspx.cs">
+      <DependentUpon>DEO_Vendor_PurchesOrderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DEO_Vendor_PurchesOrderDetails.aspx.designer.cs">
+      <DependentUpon>DEO_Vendor_PurchesOrderDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DEO_Vendor_PurchesOrder_Form.aspx.cs">
+      <DependentUpon>DEO_Vendor_PurchesOrder_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DEO_Vendor_PurchesOrder_Form.aspx.designer.cs">
+      <DependentUpon>DEO_Vendor_PurchesOrder_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Designation_Form.aspx.cs">
+      <DependentUpon>Designation_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Designation_Form.aspx.designer.cs">
+      <DependentUpon>Designation_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Download_CheckSheet.aspx.cs">
+      <DependentUpon>Download_CheckSheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Download_CheckSheet.aspx.designer.cs">
+      <DependentUpon>Download_CheckSheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Download_Documents.aspx.cs">
+      <DependentUpon>Download_Documents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Download_Documents.aspx.designer.cs">
+      <DependentUpon>Download_Documents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_PO_Date.aspx.cs">
+      <DependentUpon>Edit_PO_Date.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edit_PO_Date.aspx.designer.cs">
+      <DependentUpon>Edit_PO_Date.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EFT.aspx.cs">
+      <DependentUpon>EFT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EFT.aspx.designer.cs">
+      <DependentUpon>EFT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Email.aspx.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Email.aspx.designer.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERP_Problems_Form.aspx.cs">
+      <DependentUpon>ERP_Problems_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ERP_Problems_Form.aspx.designer.cs">
+      <DependentUpon>ERP_Problems_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error_Form.aspx.cs">
+      <DependentUpon>Error_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error_Form.aspx.designer.cs">
+      <DependentUpon>Error_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Expenditure_Form.aspx.cs">
+      <DependentUpon>Expenditure_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Expenditure_Form.aspx.designer.cs">
+      <DependentUpon>Expenditure_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FIRST_PAGE1.aspx.cs">
+      <DependentUpon>FIRST_PAGE1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FIRST_PAGE1.aspx.designer.cs">
+      <DependentUpon>FIRST_PAGE1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Highlights_Form.aspx.cs">
+      <DependentUpon>Highlights_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Highlights_Form.aspx.designer.cs">
+      <DependentUpon>Highlights_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hologram_Accountal_Form.aspx.cs">
       <DependentUpon>Hologram_Accountal_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Hologram_Accountal_Form\Hologram_Accountal_Form.aspx.designer.cs">
+    <Compile Include="Hologram_Accountal_Form.aspx.designer.cs">
       <DependentUpon>Hologram_Accountal_Form.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Hologram_Accountal_Search_Form\Hologram_Accountal_Search_Form.aspx.cs">
+    <Compile Include="Hologram_Accountal_Search_Form.aspx.cs">
       <DependentUpon>Hologram_Accountal_Search_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Hologram_Accountal_Search_Form\Hologram_Accountal_Search_Form.aspx.designer.cs">
+    <Compile Include="Hologram_Accountal_Search_Form.aspx.designer.cs">
       <DependentUpon>Hologram_Accountal_Search_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hologram_Cancel_Form.aspx.cs">
+      <DependentUpon>Hologram_Cancel_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hologram_Cancel_Form.aspx.designer.cs">
+      <DependentUpon>Hologram_Cancel_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hologram_Form.aspx.cs">
+      <DependentUpon>Hologram_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hologram_Form.aspx.designer.cs">
+      <DependentUpon>Hologram_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IC_Bookset_Form.aspx.cs">
+      <DependentUpon>IC_Bookset_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IC_Bookset_Form.aspx.designer.cs">
+      <DependentUpon>IC_Bookset_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IC_BookSet_Search_Form1.aspx.cs">
+      <DependentUpon>IC_BookSet_Search_Form1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IC_BookSet_Search_Form1.aspx.designer.cs">
+      <DependentUpon>IC_BookSet_Search_Form1.aspx</DependentUpon>
     </Compile>
     <Compile Include="IC_Cancel_Form.aspx.cs">
       <DependentUpon>IC_Cancel_Form.aspx</DependentUpon>
@@ -228,12 +1090,208 @@
     <Compile Include="IC_Cancel_Form.aspx.designer.cs">
       <DependentUpon>IC_Cancel_Form.aspx</DependentUpon>
     </Compile>
+    <Compile Include="IC_DETAILS.aspx.cs">
+      <DependentUpon>IC_DETAILS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IC_DETAILS.aspx.designer.cs">
+      <DependentUpon>IC_DETAILS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IC_InspectionTstPln.aspx.cs">
+      <DependentUpon>IC_InspectionTstPln.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IC_InspectionTstPln.aspx.designer.cs">
+      <DependentUpon>IC_InspectionTstPln.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IC_Receipt.aspx.cs">
+      <DependentUpon>IC_Receipt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IC_Receipt.aspx.designer.cs">
+      <DependentUpon>IC_Receipt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_ALTIE_REPORT.aspx.cs">
+      <DependentUpon>IE_ALTIE_REPORT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_ALTIE_REPORT.aspx.designer.cs">
+      <DependentUpon>IE_ALTIE_REPORT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Claim_Form.aspx.cs">
+      <DependentUpon>IE_Claim_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Claim_Form.aspx.designer.cs">
+      <DependentUpon>IE_Claim_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Claim_Search.aspx.cs">
+      <DependentUpon>IE_Claim_Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Claim_Search.aspx.designer.cs">
+      <DependentUpon>IE_Claim_Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_CLUSTER.aspx.cs">
+      <DependentUpon>IE_CLUSTER.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_CLUSTER.aspx.designer.cs">
+      <DependentUpon>IE_CLUSTER.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Contact_No.aspx.cs">
+      <DependentUpon>IE_Contact_No.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Contact_No.aspx.designer.cs">
+      <DependentUpon>IE_Contact_No.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_CO_Form.aspx.cs">
+      <DependentUpon>IE_CO_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_CO_Form.aspx.designer.cs">
+      <DependentUpon>IE_CO_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Daily_Work_Plan.aspx.cs">
+      <DependentUpon>IE_Daily_Work_Plan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Daily_Work_Plan.aspx.designer.cs">
+      <DependentUpon>IE_Daily_Work_Plan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Form.aspx.cs">
+      <DependentUpon>IE_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Form.aspx.designer.cs">
+      <DependentUpon>IE_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_IC_Photo_Enclosed.aspx.cs">
+      <DependentUpon>IE_IC_Photo_Enclosed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_IC_Photo_Enclosed.aspx.designer.cs">
+      <DependentUpon>IE_IC_Photo_Enclosed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_IC_Photo_Upload.aspx.cs">
+      <DependentUpon>IE_IC_Photo_Upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_IC_Photo_Upload.aspx.designer.cs">
+      <DependentUpon>IE_IC_Photo_Upload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Instructions.aspx.cs">
+      <DependentUpon>IE_Instructions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Instructions.aspx.designer.cs">
+      <DependentUpon>IE_Instructions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Instructions_Admin.aspx.cs">
+      <DependentUpon>IE_Instructions_Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Instructions_Admin.aspx.designer.cs">
+      <DependentUpon>IE_Instructions_Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_JI_Remarks_Entry_Form.aspx.cs">
+      <DependentUpon>IE_JI_Remarks_Entry_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_JI_Remarks_Entry_Form.aspx.designer.cs">
+      <DependentUpon>IE_JI_Remarks_Entry_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_JI_Remarks_Pending_Form.aspx.cs">
+      <DependentUpon>IE_JI_Remarks_Pending_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_JI_Remarks_Pending_Form.aspx.designer.cs">
+      <DependentUpon>IE_JI_Remarks_Pending_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Login_Form.aspx.cs">
+      <DependentUpon>IE_Login_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Login_Form.aspx.designer.cs">
+      <DependentUpon>IE_Login_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Login_Form_Test.aspx.cs">
+      <DependentUpon>IE_Login_Form_Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Login_Form_Test.aspx.designer.cs">
+      <DependentUpon>IE_Login_Form_Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Marked_To_Vendor.aspx.cs">
+      <DependentUpon>IE_Marked_To_Vendor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Marked_To_Vendor.aspx.designer.cs">
+      <DependentUpon>IE_Marked_To_Vendor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_MAXIMUMCALLLIMIT.aspx.cs">
+      <DependentUpon>IE_MAXIMUMCALLLIMIT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_MAXIMUMCALLLIMIT.aspx.designer.cs">
+      <DependentUpon>IE_MAXIMUMCALLLIMIT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Menu.aspx.cs">
+      <DependentUpon>IE_Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Menu.aspx.designer.cs">
+      <DependentUpon>IE_Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_NC_Edit_Form.aspx.cs">
+      <DependentUpon>IE_NC_Edit_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_NC_Edit_Form.aspx.designer.cs">
+      <DependentUpon>IE_NC_Edit_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Search_Form.aspx.cs">
+      <DependentUpon>IE_Search_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Search_Form.aspx.designer.cs">
+      <DependentUpon>IE_Search_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Incoming_Dak_Edit.aspx.cs">
+      <DependentUpon>Incoming_Dak_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Incoming_Dak_Edit.aspx.designer.cs">
+      <DependentUpon>Incoming_Dak_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Incoming_Dak_Form.aspx.cs">
+      <DependentUpon>Incoming_Dak_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Incoming_Dak_Form.aspx.designer.cs">
+      <DependentUpon>Incoming_Dak_Form.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Inspection_Certificate_Edit_Form.aspx.cs">
       <DependentUpon>Inspection_Certificate_Edit_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Inspection_Certificate_Edit_Form.aspx.designer.cs">
       <DependentUpon>Inspection_Certificate_Edit_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection_Certificate_Form.aspx.cs">
+      <DependentUpon>Inspection_Certificate_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inspection_Certificate_Form.aspx.designer.cs">
+      <DependentUpon>Inspection_Certificate_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection_Fee_Bill.aspx.cs">
+      <DependentUpon>Inspection_Fee_Bill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inspection_Fee_Bill.aspx.designer.cs">
+      <DependentUpon>Inspection_Fee_Bill.aspx</DependentUpon>
     </Compile>
     <Compile Include="Inspection_Fee_Bill_Edit.aspx.cs">
       <DependentUpon>Inspection_Fee_Bill_Edit.aspx</DependentUpon>
@@ -242,6 +1300,34 @@
     <Compile Include="Inspection_Fee_Bill_Edit.aspx.designer.cs">
       <DependentUpon>Inspection_Fee_Bill_Edit.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Instruction_Page.aspx.cs">
+      <DependentUpon>Instruction_Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Instruction_Page.aspx.designer.cs">
+      <DependentUpon>Instruction_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Instruction_Page_Hindi.aspx.cs">
+      <DependentUpon>Instruction_Page_Hindi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Instruction_Page_Hindi.aspx.designer.cs">
+      <DependentUpon>Instruction_Page_Hindi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InterUnit_Advice.aspx.cs">
+      <DependentUpon>InterUnit_Advice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterUnit_Advice.aspx.designer.cs">
+      <DependentUpon>InterUnit_Advice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InterUnit_Reciept.aspx.cs">
+      <DependentUpon>InterUnit_Reciept.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterUnit_Reciept.aspx.designer.cs">
+      <DependentUpon>InterUnit_Reciept.aspx</DependentUpon>
+    </Compile>
     <Compile Include="InterUnit_Transfer.aspx.cs">
       <DependentUpon>InterUnit_Transfer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -249,9 +1335,128 @@
     <Compile Include="InterUnit_Transfer.aspx.designer.cs">
       <DependentUpon>InterUnit_Transfer.aspx</DependentUpon>
     </Compile>
+    <Compile Include="JI.aspx.cs">
+      <DependentUpon>JI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JI.aspx.designer.cs">
+      <DependentUpon>JI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JI_Request_Form.aspx.cs">
+      <DependentUpon>JI_Request_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JI_Request_Form.aspx.designer.cs">
+      <DependentUpon>JI_Request_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_Master_Form.aspx.cs">
+      <DependentUpon>Laboratory_Master_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Laboratory_Master_Form.aspx.designer.cs">
+      <DependentUpon>Laboratory_Master_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_Search_Form.aspx.cs">
+      <DependentUpon>Laboratory_Search_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Laboratory_Search_Form.aspx.designer.cs">
+      <DependentUpon>Laboratory_Search_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Billing_Form.aspx.cs">
+      <DependentUpon>Lab_Billing_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab_Billing_Form.aspx.designer.cs">
+      <DependentUpon>Lab_Billing_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LAB_Bill_Finalisation_Form.aspx.cs">
+      <DependentUpon>LAB_Bill_Finalisation_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LAB_Bill_Finalisation_Form.aspx.designer.cs">
+      <DependentUpon>LAB_Bill_Finalisation_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Invoice.aspx.cs">
+      <DependentUpon>Lab_Invoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab_Invoice.aspx.designer.cs">
+      <DependentUpon>Lab_Invoice.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Lab_Menu.aspx.cs">
       <DependentUpon>Lab_Menu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab_Menu_WR.aspx.cs">
+      <DependentUpon>Lab_Menu_WR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab_Menu_WR.aspx.designer.cs">
+      <DependentUpon>Lab_Menu_WR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Payments_Edit_Form.aspx.cs">
+      <DependentUpon>Lab_Payments_Edit_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab_Payments_Edit_Form.aspx.designer.cs">
+      <DependentUpon>Lab_Payments_Edit_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Payments_Form.aspx.cs">
+      <DependentUpon>Lab_Payments_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab_Payments_Form.aspx.designer.cs">
+      <DependentUpon>Lab_Payments_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Payment_Approve_Form.aspx.cs">
+      <DependentUpon>Lab_Payment_Approve_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab_Payment_Approve_Form.aspx.designer.cs">
+      <DependentUpon>Lab_Payment_Approve_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Pyament_List.aspx.cs">
+      <DependentUpon>Lab_Pyament_List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab_Pyament_List.aspx.designer.cs">
+      <DependentUpon>Lab_Pyament_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Register_Edit.aspx.cs">
+      <DependentUpon>Lab_Register_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab_Register_Edit.aspx.designer.cs">
+      <DependentUpon>Lab_Register_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Register_Form.aspx.cs">
+      <DependentUpon>Lab_Register_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab_Register_Form.aspx.designer.cs">
+      <DependentUpon>Lab_Register_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Sample_Info.aspx.cs">
+      <DependentUpon>Lab_Sample_Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab_Sample_Info.aspx.designer.cs">
+      <DependentUpon>Lab_Sample_Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Sample_Info_Details.aspx.cs">
+      <DependentUpon>Lab_Sample_Info_Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab_Sample_Info_Details.aspx.designer.cs">
+      <DependentUpon>Lab_Sample_Info_Details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_TDS_Entry_Form.aspx.cs">
+      <DependentUpon>Lab_TDS_Entry_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab_TDS_Entry_Form.aspx.designer.cs">
+      <DependentUpon>Lab_TDS_Entry_Form.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login_Form1.aspx.cs">
       <DependentUpon>Login_Form1.aspx</DependentUpon>
@@ -260,9 +1465,264 @@
     <Compile Include="Login_Form1.aspx.designer.cs">
       <DependentUpon>Login_Form1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Login_Form.aspx.cs">
+      <DependentUpon>Login_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login_Form.aspx.designer.cs">
+      <DependentUpon>Login_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LO_Bill_Remarks.aspx.cs">
+      <DependentUpon>LO_Bill_Remarks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LO_Bill_Remarks.aspx.designer.cs">
+      <DependentUpon>LO_Bill_Remarks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LO_Registration.aspx.cs">
+      <DependentUpon>LO_Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LO_Registration.aspx.designer.cs">
+      <DependentUpon>LO_Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm2.aspx.cs">
+      <DependentUpon>MainForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainForm2.aspx.designer.cs">
+      <DependentUpon>MainForm2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.aspx.cs">
       <DependentUpon>MainForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainForm.aspx.designer.cs">
+      <DependentUpon>MainForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainPage.aspx.designer.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage_Hindi_New.aspx.cs">
+      <DependentUpon>MainPage_Hindi_New.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainPage_Hindi_New.aspx.designer.cs">
+      <DependentUpon>MainPage_Hindi_New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master_Items_Form.aspx.cs">
+      <DependentUpon>Master_Items_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master_Items_Form.aspx.designer.cs">
+      <DependentUpon>Master_Items_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master_Items_PL_Form.aspx.cs">
+      <DependentUpon>Master_Items_PL_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master_Items_PL_Form.aspx.designer.cs">
+      <DependentUpon>Master_Items_PL_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MA_APPROVE_FORM.aspx.cs">
+      <DependentUpon>MA_APPROVE_FORM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MA_APPROVE_FORM.aspx.designer.cs">
+      <DependentUpon>MA_APPROVE_FORM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MA_VENDOR_LIST.aspx.cs">
+      <DependentUpon>MA_VENDOR_LIST.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MA_VENDOR_LIST.aspx.designer.cs">
+      <DependentUpon>MA_VENDOR_LIST.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Multiple_Inspection_Certificate_Form.aspx.cs">
+      <DependentUpon>Multiple_Inspection_Certificate_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Multiple_Inspection_Certificate_Form.aspx.designer.cs">
+      <DependentUpon>Multiple_Inspection_Certificate_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="New_Login_Form.aspx.cs">
+      <DependentUpon>New_Login_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="New_Login_Form.aspx.designer.cs">
+      <DependentUpon>New_Login_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OldOutstandingClientWise.aspx.cs">
+      <DependentUpon>OldOutstandingClientWise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OldOutstandingClientWise.aspx.designer.cs">
+      <DependentUpon>OldOutstandingClientWise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="old_Login_Form.aspx.cs">
+      <DependentUpon>old_Login_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="old_Login_Form.aspx.designer.cs">
+      <DependentUpon>old_Login_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ongoing_Contracts_Edit.aspx.cs">
+      <DependentUpon>Ongoing_Contracts_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ongoing_Contracts_Edit.aspx.designer.cs">
+      <DependentUpon>Ongoing_Contracts_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ongoing_Contract_Form.aspx.cs">
+      <DependentUpon>Ongoing_Contract_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ongoing_Contract_Form.aspx.designer.cs">
+      <DependentUpon>Ongoing_Contract_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Onliine_Complaints_Form.aspx.cs">
+      <DependentUpon>Onliine_Complaints_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Onliine_Complaints_Form.aspx.designer.cs">
+      <DependentUpon>Onliine_Complaints_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Online_complaints_Approval_Form.aspx.cs">
+      <DependentUpon>Online_complaints_Approval_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Online_complaints_Approval_Form.aspx.designer.cs">
+      <DependentUpon>Online_complaints_Approval_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Online_Payment_Reciept.aspx.cs">
+      <DependentUpon>Online_Payment_Reciept.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Online_Payment_Reciept.aspx.designer.cs">
+      <DependentUpon>Online_Payment_Reciept.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Our_Clients.aspx.cs">
+      <DependentUpon>Our_Clients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Our_Clients.aspx.designer.cs">
+      <DependentUpon>Our_Clients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Our_Clients_Hindi.aspx.cs">
+      <DependentUpon>Our_Clients_Hindi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Our_Clients_Hindi.aspx.designer.cs">
+      <DependentUpon>Our_Clients_Hindi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Our_Committement.aspx.cs">
+      <DependentUpon>Our_Committement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Our_Committement.aspx.designer.cs">
+      <DependentUpon>Our_Committement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Our_Resources_Hindi.aspx.cs">
+      <DependentUpon>Our_Resources_Hindi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Our_Resources_Hindi.aspx.designer.cs">
+      <DependentUpon>Our_Resources_Hindi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Outstanding_LY_Form.aspx.cs">
+      <DependentUpon>Outstanding_LY_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Outstanding_LY_Form.aspx.designer.cs">
+      <DependentUpon>Outstanding_LY_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page2.aspx.cs">
+      <DependentUpon>Page2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page2.aspx.designer.cs">
+      <DependentUpon>Page2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Photo_Gallery.aspx.cs">
+      <DependentUpon>Photo_Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Photo_Gallery.aspx.designer.cs">
+      <DependentUpon>Photo_Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Photo_Gallery_Hindi.aspx.cs">
+      <DependentUpon>Photo_Gallery_Hindi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Photo_Gallery_Hindi.aspx.designer.cs">
+      <DependentUpon>Photo_Gallery_Hindi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PKIDATA.aspx.cs">
+      <DependentUpon>PKIDATA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PKIDATA.aspx.designer.cs">
+      <DependentUpon>PKIDATA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PKIVERIFY.aspx.cs">
+      <DependentUpon>PKIVERIFY.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PKIVERIFY.aspx.designer.cs">
+      <DependentUpon>PKIVERIFY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp.aspx.cs">
+      <DependentUpon>PopUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopUp.aspx.designer.cs">
+      <DependentUpon>PopUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Print_Bank_Statement_Voucher.aspx.cs">
+      <DependentUpon>Print_Bank_Statement_Voucher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Print_Bank_Statement_Voucher.aspx.designer.cs">
+      <DependentUpon>Print_Bank_Statement_Voucher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Print_Call_Items.aspx.cs">
+      <DependentUpon>Print_Call_Items.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Print_Call_Items.aspx.designer.cs">
+      <DependentUpon>Print_Call_Items.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Print_Call_Letter.aspx.cs">
+      <DependentUpon>Print_Call_Letter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Print_Call_Letter.aspx.designer.cs">
+      <DependentUpon>Print_Call_Letter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Print_Lab_Payment_Voucher.aspx.cs">
+      <DependentUpon>Print_Lab_Payment_Voucher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Print_Lab_Payment_Voucher.aspx.designer.cs">
+      <DependentUpon>Print_Lab_Payment_Voucher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="prmOLD_Contract.aspx.cs">
+      <DependentUpon>prmOLD_Contract.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prmOLD_Contract.aspx.designer.cs">
+      <DependentUpon>prmOLD_Contract.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProductPage\UCBullGearforWag9.ascx.cs">
       <DependentUpon>UCBullGearforWag9.ascx</DependentUpon>
@@ -272,12 +1732,33 @@
       <DependentUpon>UCBullGearforWag9.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purchaser_Form.aspx.cs">
+      <DependentUpon>Purchaser_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Purchaser_Form.aspx.designer.cs">
+      <DependentUpon>Purchaser_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Purchaser_Search_Form.aspx.cs">
+      <DependentUpon>Purchaser_Search_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Purchaser_Search_Form.aspx.designer.cs">
+      <DependentUpon>Purchaser_Search_Form.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PurchesOrder1_Form.aspx.cs">
       <DependentUpon>PurchesOrder1_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PurchesOrder1_Form.aspx.designer.cs">
       <DependentUpon>PurchesOrder1_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PurchesOrderDetails.aspx.cs">
+      <DependentUpon>PurchesOrderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PurchesOrderDetails.aspx.designer.cs">
+      <DependentUpon>PurchesOrderDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="PurchesOrder_Form.aspx.cs">
       <DependentUpon>PurchesOrder_Form.aspx</DependentUpon>
@@ -286,13 +1767,265 @@
     <Compile Include="PurchesOrder_Form.aspx.designer.cs">
       <DependentUpon>PurchesOrder_Form.aspx</DependentUpon>
     </Compile>
+    <Compile Include="QA_VEDIO.aspx.cs">
+      <DependentUpon>QA_VEDIO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QA_VEDIO.aspx.designer.cs">
+      <DependentUpon>QA_VEDIO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quality_Manual_Procedures.aspx.cs">
+      <DependentUpon>Quality_Manual_Procedures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quality_Manual_Procedures.aspx.designer.cs">
+      <DependentUpon>Quality_Manual_Procedures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Railways_Form.aspx.cs">
+      <DependentUpon>Railways_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Railways_Form.aspx.designer.cs">
+      <DependentUpon>Railways_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rail_Price_Form.aspx.cs">
+      <DependentUpon>Rail_Price_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rail_Price_Form.aspx.designer.cs">
+      <DependentUpon>Rail_Price_Form.aspx</DependentUpon>
+    </Compile>
     <Compile Include="rbs.cs" />
+    <Compile Include="Reciepts_Edit_Form.aspx.cs">
+      <DependentUpon>Reciepts_Edit_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reciepts_Edit_Form.aspx.designer.cs">
+      <DependentUpon>Reciepts_Edit_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reciepts_Form.aspx.cs">
+      <DependentUpon>Reciepts_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reciepts_Form.aspx.designer.cs">
+      <DependentUpon>Reciepts_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Region_Selection_Form.aspx.cs">
+      <DependentUpon>Region_Selection_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Region_Selection_Form.aspx.designer.cs">
+      <DependentUpon>Region_Selection_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Replace_BPO.aspx.cs">
+      <DependentUpon>Replace_BPO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Replace_BPO.aspx.designer.cs">
+      <DependentUpon>Replace_BPO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Replace_Cheques_Form.aspx.cs">
+      <DependentUpon>Replace_Cheques_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Replace_Cheques_Form.aspx.designer.cs">
+      <DependentUpon>Replace_Cheques_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report_BPO_WISE_BILL_CHECK.aspx.cs">
+      <DependentUpon>Report_BPO_WISE_BILL_CHECK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report_BPO_WISE_BILL_CHECK.aspx.designer.cs">
+      <DependentUpon>Report_BPO_WISE_BILL_CHECK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources_Form.aspx.cs">
+      <DependentUpon>Resources_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources_Form.aspx.designer.cs">
+      <DependentUpon>Resources_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Returned_Bills_BPO_Change_Form.aspx.cs">
+      <DependentUpon>Returned_Bills_BPO_Change_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Returned_Bills_BPO_Change_Form.aspx.designer.cs">
+      <DependentUpon>Returned_Bills_BPO_Change_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RKM_PurchesOrder_Form.aspx.cs">
+      <DependentUpon>RKM_PurchesOrder_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RKM_PurchesOrder_Form.aspx.designer.cs">
+      <DependentUpon>RKM_PurchesOrder_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rly_Designation_Form.aspx.cs">
+      <DependentUpon>Rly_Designation_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rly_Designation_Form.aspx.designer.cs">
+      <DependentUpon>Rly_Designation_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rly_Online_Check_Posting_Form.aspx.cs">
+      <DependentUpon>Rly_Online_Check_Posting_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rly_Online_Check_Posting_Form.aspx.designer.cs">
+      <DependentUpon>Rly_Online_Check_Posting_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rptIEWiseCallDetails.aspx.cs">
+      <DependentUpon>rptIEWiseCallDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rptIEWiseCallDetails.aspx.designer.cs">
+      <DependentUpon>rptIEWiseCallDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rptPrint_Bill_Nos.aspx.cs">
+      <DependentUpon>rptPrint_Bill_Nos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rptPrint_Bill_Nos.aspx.designer.cs">
+      <DependentUpon>rptPrint_Bill_Nos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RV_Entry.aspx.cs">
+      <DependentUpon>RV_Entry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RV_Entry.aspx.designer.cs">
+      <DependentUpon>RV_Entry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RV_Main.aspx.cs">
+      <DependentUpon>RV_Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RV_Main.aspx.designer.cs">
+      <DependentUpon>RV_Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="R_Login_Form.aspx.cs">
+      <DependentUpon>R_Login_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="R_Login_Form.aspx.designer.cs">
+      <DependentUpon>R_Login_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SAP_Billing_Entry_Form.aspx.cs">
+      <DependentUpon>SAP_Billing_Entry_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAP_Billing_Entry_Form.aspx.designer.cs">
+      <DependentUpon>SAP_Billing_Entry_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SAP_Realisation_Entry_Form.aspx.cs">
+      <DependentUpon>SAP_Realisation_Entry_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAP_Realisation_Entry_Form.aspx.designer.cs">
+      <DependentUpon>SAP_Realisation_Entry_Form.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Search_Form.aspx.cs">
       <DependentUpon>Search_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Search_Form.aspx.designer.cs">
       <DependentUpon>Search_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search_Payments.aspx.cs">
+      <DependentUpon>Search_Payments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search_Payments.aspx.designer.cs">
+      <DependentUpon>Search_Payments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service_Spectrum.aspx.cs">
+      <DependentUpon>Service_Spectrum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Service_Spectrum.aspx.designer.cs">
+      <DependentUpon>Service_Spectrum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service_Spectrum_Hindi.aspx.cs">
+      <DependentUpon>Service_Spectrum_Hindi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Service_Spectrum_Hindi.aspx.designer.cs">
+      <DependentUpon>Service_Spectrum_Hindi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Session_Expired.aspx.cs">
+      <DependentUpon>Session_Expired.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Session_Expired.aspx.designer.cs">
+      <DependentUpon>Session_Expired.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Session_Expired_Client.aspx.cs">
+      <DependentUpon>Session_Expired_Client.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Session_Expired_Client.aspx.designer.cs">
+      <DependentUpon>Session_Expired_Client.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Super_Surpirse_Form.aspx.cs">
+      <DependentUpon>Super_Surpirse_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Super_Surpirse_Form.aspx.designer.cs">
+      <DependentUpon>Super_Surpirse_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TDS.aspx.cs">
+      <DependentUpon>TDS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TDS.aspx.designer.cs">
+      <DependentUpon>TDS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tech_Ref_Form.aspx.cs">
+      <DependentUpon>Tech_Ref_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tech_Ref_Form.aspx.designer.cs">
+      <DependentUpon>Tech_Ref_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TermsandConditions.aspx.cs">
+      <DependentUpon>TermsandConditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TermsandConditions.aspx.designer.cs">
+      <DependentUpon>TermsandConditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training_Excel.aspx.cs">
+      <DependentUpon>Training_Excel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training_Excel.aspx.designer.cs">
+      <DependentUpon>Training_Excel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training_Form.aspx.cs">
+      <DependentUpon>Training_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training_Form.aspx.designer.cs">
+      <DependentUpon>Training_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="T_PurchesOrderDetails.aspx.cs">
+      <DependentUpon>T_PurchesOrderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="T_PurchesOrderDetails.aspx.designer.cs">
+      <DependentUpon>T_PurchesOrderDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnAuthorised_User_Message.aspx.cs">
+      <DependentUpon>UnAuthorised_User_Message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnAuthorised_User_Message.aspx.designer.cs">
+      <DependentUpon>UnAuthorised_User_Message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Under_Maintainence_Form.aspx.cs">
+      <DependentUpon>Under_Maintainence_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Under_Maintainence_Form.aspx.designer.cs">
+      <DependentUpon>Under_Maintainence_Form.aspx</DependentUpon>
     </Compile>
     <Compile Include="Unregistered_Calls.aspx.cs">
       <DependentUpon>Unregistered_Calls.aspx</DependentUpon>
@@ -308,12 +2041,68 @@
     <Compile Include="Call_Register_Edit.aspx.designer.cs">
       <DependentUpon>Call_Register_Edit.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UOM_Form.aspx.cs">
+      <DependentUpon>UOM_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UOM_Form.aspx.designer.cs">
+      <DependentUpon>UOM_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateBillsFromExcel.aspx.cs">
+      <DependentUpon>UpdateBillsFromExcel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateBillsFromExcel.aspx.designer.cs">
+      <DependentUpon>UpdateBillsFromExcel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateBillsFromExcel_Lab.aspx.cs">
+      <DependentUpon>UpdateBillsFromExcel_Lab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateBillsFromExcel_Lab.aspx.designer.cs">
+      <DependentUpon>UpdateBillsFromExcel_Lab.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Update_Bill_Status.aspx.cs">
       <DependentUpon>Update_Bill_Status.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Update_Bill_Status.aspx.designer.cs">
       <DependentUpon>Update_Bill_Status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Upload_CheckSheet.aspx.cs">
+      <DependentUpon>Upload_CheckSheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Upload_CheckSheet.aspx.designer.cs">
+      <DependentUpon>Upload_CheckSheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Administration.aspx.cs">
+      <DependentUpon>User_Administration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Administration.aspx.designer.cs">
+      <DependentUpon>User_Administration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Delete.aspx.cs">
+      <DependentUpon>User_Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Delete.aspx.designer.cs">
+      <DependentUpon>User_Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Edit.aspx.cs">
+      <DependentUpon>User_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Edit.aspx.designer.cs">
+      <DependentUpon>User_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VENDERCLUSTERIE.aspx.cs">
+      <DependentUpon>VENDERCLUSTERIE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VENDERCLUSTERIE.aspx.designer.cs">
+      <DependentUpon>VENDERCLUSTERIE.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vendor\Call_Register_Edit.aspx.cs">
       <DependentUpon>Call_Register_Edit.aspx</DependentUpon>
@@ -368,11 +2157,39 @@
       <DependentUpon>WebUserControl_Vend.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vigilance_Cases_Edit\Vigilance_Cases_Edit.aspx.cs">
+    <Compile Include="Vendor_Call_Register_Form.aspx.cs">
+      <DependentUpon>Vendor_Call_Register_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vendor_Call_Register_Form.aspx.designer.cs">
+      <DependentUpon>Vendor_Call_Register_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VENDOR_CLUSTER.aspx.cs">
+      <DependentUpon>VENDOR_CLUSTER.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VENDOR_CLUSTER.aspx.designer.cs">
+      <DependentUpon>VENDOR_CLUSTER.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor_Feedback_Form.aspx.cs">
+      <DependentUpon>Vendor_Feedback_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vendor_Feedback_Form.aspx.designer.cs">
+      <DependentUpon>Vendor_Feedback_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor_Search_Form.aspx.cs">
+      <DependentUpon>Vendor_Search_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vendor_Search_Form.aspx.designer.cs">
+      <DependentUpon>Vendor_Search_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vigilance_Cases_Edit.aspx.cs">
       <DependentUpon>Vigilance_Cases_Edit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vigilance_Cases_Edit\Vigilance_Cases_Edit.aspx.designer.cs">
+    <Compile Include="Vigilance_Cases_Edit.aspx.designer.cs">
       <DependentUpon>Vigilance_Cases_Edit.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebUserControl1.ascx.cs">
@@ -388,6 +2205,13 @@
     </Compile>
     <Compile Include="WebUserControl3.ascx.designer.cs">
       <DependentUpon>WebUserControl3.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="xPurchesOrderDetails.aspx.cs">
+      <DependentUpon>xPurchesOrderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xPurchesOrderDetails.aspx.designer.cs">
+      <DependentUpon>xPurchesOrderDetails.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -407,11 +2231,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Lab_Menu.aspx.resx" />
-    <EmbeddedResource Include="MainForm.aspx.resx" />
     <EmbeddedResource Include="Vendor\WebUserControl_Vend.ascx.resx">
       <DependentUpon>WebUserControl_Vend.ascx.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
