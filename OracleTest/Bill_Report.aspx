@@ -1,6 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Bill_Report.aspx.cs" Inherits="RBS.Bill_Report" %>
 
-<%@ Register TagPrefix="cr" Namespace="CrystalDecisions.Web" Assembly="CrystalDecisions.Web, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" %>
+<%@ Register Assembly="CrystalDecisions.Web" Namespace="CrystalDecisions.Web" TagPrefix="CR" %>
+
+<%--<%@ Register TagPrefix="cr" Namespace="CrystalDecisions.Web" Assembly="CrystalDecisions.Web, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" %>--%>
 <%@ Register TagPrefix="uc1" TagName="WebUserControl1" Src="WebUserControl1.ascx" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
 <HTML>
@@ -62,9 +64,13 @@
 	</HEAD>
 	<body>
 		<form id="Form1" method="post" runat="server">
-			<CR:CRYSTALREPORTVIEWER id="CrystalReportViewer1" style="Z-INDEX: 101; LEFT: 0px; POSITION: absolute; TOP: 0px"
+	<%--		<CR:CRYSTALREPORTVIEWER id="CrystalReportViewer1" style="Z-INDEX: 101; LEFT: 0px; POSITION: absolute; TOP: 0px"
 				runat="server" Visible="False" SeparatePages="False" DisplayGroupTree="False" DisplayToolbar="False"
-				Height="50px" Width="350px" EnableDrillDown="False"></CR:CRYSTALREPORTVIEWER><asp:panel id="MyPannel" style="Z-INDEX: 103; LEFT: 0px; POSITION: absolute; TOP: 0px" runat="server"
+				Height="50px" Width="350px" EnableDrillDown="False"></CR:CRYSTALREPORTVIEWER>--%>
+		
+			<cr:crystalreportviewer runat="server" autodatabind="true"></cr:crystalreportviewer>
+			
+			<asp:panel id="MyPannel" style="Z-INDEX: 103; LEFT: 0px; POSITION: absolute; TOP: 0px" runat="server"
 				width="100%">
 				<TABLE id="Table1" style="Z-INDEX: 101; LEFT: 8px; POSITION: absolute; TOP: 8px; HEIGHT: 56px"
 					cellSpacing="0" cellPadding="0" width="100%" align="center" border="0">

@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RBS {
-    
-    
-    public partial class CrystalReportViewerPage {
-        
+namespace RBS
+{
+
+
+    public partial class CrystalReportViewerPage
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace RBS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// CrystalReportViewer1 control.
         /// </summary>
