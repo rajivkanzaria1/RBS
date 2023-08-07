@@ -164,10 +164,6 @@ E:\RBS Convert\OracleTest\RBSREPO\OracleTest\obj\Debug\RBS.csproj.CoreCompileInp
 E:\RBS Convert\OracleTest\RBSREPO\OracleTest\obj\Debug\RBS.csproj.CopyComplete
 E:\RBS Convert\OracleTest\RBSREPO\OracleTest\obj\Debug\RBS.dll
 E:\RBS Convert\OracleTest\RBSREPO\OracleTest\obj\Debug\RBS.pdb
-E:\RBS(Conversion)\RBSREPO\OracleTest\obj\Debug\RBS.Lab_Menu.aspx.resources
-E:\RBS(Conversion)\RBSREPO\OracleTest\obj\Debug\RBS.Vendor.WebUserControl_Vend.resources
-E:\RBS(Conversion)\RBSREPO\OracleTest\obj\Debug\RBS.csproj.GenerateResource.cache
-E:\RBS(Conversion)\RBSREPO\OracleTest\obj\Debug\RBS.csproj.CoreCompileInputs.cache
 E:\RBS(Conversion)\RBSREPO\OracleTest\bin\RBS.dll.config
 E:\RBS(Conversion)\RBSREPO\OracleTest\bin\RBS.dll
 E:\RBS(Conversion)\RBSREPO\OracleTest\bin\RBS.pdb
@@ -271,6 +267,10 @@ E:\RBS(Conversion)\RBSREPO\OracleTest\bin\System.Threading.Tasks.Extensions.xml
 E:\RBS(Conversion)\RBSREPO\OracleTest\bin\System.ValueTuple.xml
 E:\RBS(Conversion)\RBSREPO\OracleTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\RBS(Conversion)\RBSREPO\OracleTest\obj\Debug\RBS.csproj.AssemblyReference.cache
+E:\RBS(Conversion)\RBSREPO\OracleTest\obj\Debug\RBS.Lab_Menu.aspx.resources
+E:\RBS(Conversion)\RBSREPO\OracleTest\obj\Debug\RBS.Vendor.WebUserControl_Vend.resources
+E:\RBS(Conversion)\RBSREPO\OracleTest\obj\Debug\RBS.csproj.GenerateResource.cache
+E:\RBS(Conversion)\RBSREPO\OracleTest\obj\Debug\RBS.csproj.CoreCompileInputs.cache
 E:\RBS(Conversion)\RBSREPO\OracleTest\obj\Debug\RBS.csproj.CopyComplete
 E:\RBS(Conversion)\RBSREPO\OracleTest\obj\Debug\RBS.dll
 E:\RBS(Conversion)\RBSREPO\OracleTest\obj\Debug\RBS.pdb
