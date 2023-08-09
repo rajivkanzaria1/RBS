@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Credit_Doc_upd.aspx.cs" Inherits="RBS.Credit_Doc_upd.Credit_Doc_upd" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Credit_Doc_upd.aspx.cs" Inherits="RBS.Credit_Doc_upd.Credit_Doc_upd" %>
 
-<%@ Register Assembly="CrystalDecisions.Web, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Namespace="CrystalDecisions.Web" TagPrefix="CR" %>
+<%@ Register Assembly="CrystalDecisions.Web, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Namespace="CrystalDecisions.Web" TagPrefix="CR" %>
 <%@ Register TagPrefix="Tittle" Namespace="Tittle.Controls" Assembly="Controls" %>
 <%@ Register TagPrefix="uc1" TagName="WebUserControl1" Src="WebUserControl1.ascx" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
