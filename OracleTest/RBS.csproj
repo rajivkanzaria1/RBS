@@ -405,6 +405,7 @@
     <Content Include="TDS.aspx" />
     <Content Include="Tech_Ref_Form.aspx" />
     <Content Include="TermsandConditions.aspx" />
+    <Content Include="test2.aspx" />
     <Content Include="Training_Excel.aspx" />
     <Content Include="Training_Form.aspx" />
     <Content Include="T_PurchesOrderDetails.aspx" />
@@ -1992,6 +1993,13 @@
     </Compile>
     <Compile Include="TermsandConditions.aspx.designer.cs">
       <DependentUpon>TermsandConditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test2.aspx.cs">
+      <DependentUpon>test2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test2.aspx.designer.cs">
+      <DependentUpon>test2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training_Excel.aspx.cs">
       <DependentUpon>Training_Excel.aspx</DependentUpon>
