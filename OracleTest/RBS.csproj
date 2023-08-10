@@ -298,6 +298,7 @@
     <Content Include="IE_MAXIMUMCALLLIMIT.aspx" />
     <Content Include="IE_Menu.aspx" />
     <Content Include="IE_NC_Edit_Form.aspx" />
+    <Content Include="IE_NC_Form.aspx" />
     <Content Include="IE_Search_Form.aspx" />
     <Content Include="Incoming_Dak_Edit.aspx" />
     <Content Include="Incoming_Dak_Form.aspx" />
@@ -405,6 +406,7 @@
     <Content Include="TDS.aspx" />
     <Content Include="Tech_Ref_Form.aspx" />
     <Content Include="TermsandConditions.aspx" />
+    <Content Include="test1.aspx" />
     <Content Include="Training_Excel.aspx" />
     <Content Include="Training_Form.aspx" />
     <Content Include="T_PurchesOrderDetails.aspx" />
@@ -482,6 +484,12 @@
     </Compile>
     <Compile Include="BE_Target_Form.aspx.designer.cs">
       <DependentUpon>BE_Target_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bill.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Bill.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Billing_Adjustment_Form.aspx.cs">
       <DependentUpon>Billing_Adjustment_Form.aspx</DependentUpon>
@@ -706,6 +714,461 @@
     </Compile>
     <Compile Include="CheckSheets_Form.aspx.designer.cs">
       <DependentUpon>CheckSheets_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="checksheet\bullgearsub1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bullgearsub1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\Centeringdiskdrg.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Centeringdiskdrg.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\Centeringdiskdrg2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Centeringdiskdrg2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\CompactFluorecent.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompactFluorecent.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\CompactFluorecent2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompactFluorecent2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\CompactFluorecent3.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompactFluorecent3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\CompactFluorecent4.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompactFluorecent4.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\fishplatedim1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fishplatedim1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\fishplatedim2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fishplatedim2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\fishplatedim3.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fishplatedim3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\fishplatedim4.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fishplatedim4.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\fishplatedim5.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fishplatedim5.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\fishplatedims1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fishplatedims1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\fishplatedimsub1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fishplatedimsub1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\lowmaintances1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lowmaintances1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptBullGear.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptBullGear.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptCenteringdiskdrg1268840.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCenteringdiskdrg1268840.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptCompactFluorecent.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCompactFluorecent.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptDocumentChecks.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDocumentChecks.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptFireRetardantfbric.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFireRetardantfbric.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptFishplatebars.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFishplatebars.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptFishplatebars1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFishplatebars1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptLowmentance.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptLowmentance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptSgciInjserts.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSgciInjserts.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptTestChecks.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTestChecks.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptTestChecks1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTestChecks1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptTestChecks2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTestChecks2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptTestChecks3.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTestChecks3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptTestChecks4.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTestChecks4.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptTestChecksForBull.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTestChecksForBull.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptTestCheckslowMaintance.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTestCheckslowMaintance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptVerticaldamper.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVerticaldamper.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptWeldingCables.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptWeldingCables.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\rptXlpeInsulatedpvc.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptXlpeInsulatedpvc.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\SgciInsertSub1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SgciInsertSub1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\SgciInsertSub2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SgciInsertSub2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\VerticalDamperSub1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VerticalDamperSub1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\WeldingCableSub1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WeldingCableSub1.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="checksheet\XLPEInsulatedSub1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XLPEInsulatedSub1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{04A49147-0054-4397-AA6C-900946126717}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{04A49147-0054-4397-AA6C-900946126717}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{0C2F87B5-135A-4963-99EB-AA7764095DE7}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{0C2F87B5-135A-4963-99EB-AA7764095DE7}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{0C60F22E-4140-4537-A8B1-9D84EE6B94A3}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{0C60F22E-4140-4537-A8B1-9D84EE6B94A3}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{19401E80-F37E-4B14-BFAA-00E07651D318}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{19401E80-F37E-4B14-BFAA-00E07651D318}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{1EE3EA3B-953E-45DA-B651-6721678AC8DA}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{1EE3EA3B-953E-45DA-B651-6721678AC8DA}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{2459AA72-EAA4-4F2D-B884-BE1308E91410}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{2459AA72-EAA4-4F2D-B884-BE1308E91410}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{274895DB-F84E-4E37-B5D0-37E01AB0C19D}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{274895DB-F84E-4E37-B5D0-37E01AB0C19D}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{2D13937C-9845-4BD8-9DFF-556783F2AA0F}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{2D13937C-9845-4BD8-9DFF-556783F2AA0F}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{33C6FCA6-3ACE-49AA-A0F5-6BEFA25DA2F3}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{33C6FCA6-3ACE-49AA-A0F5-6BEFA25DA2F3}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{396E11C1-6274-49C7-BF40-35A065109864}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{396E11C1-6274-49C7-BF40-35A065109864}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{3BDEC8E6-A124-4CBB-8B40-8EF4CDE8FE2F}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{3BDEC8E6-A124-4CBB-8B40-8EF4CDE8FE2F}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{467D7951-598A-4CB0-898E-70E44E2D431E}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{467D7951-598A-4CB0-898E-70E44E2D431E}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{47443125-3A5C-4844-803E-A96AF285A292}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{47443125-3A5C-4844-803E-A96AF285A292}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{49D0F712-82B6-41C4-A1C2-B7895272EA37}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{49D0F712-82B6-41C4-A1C2-B7895272EA37}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{4CFD89A3-8241-4148-8364-78D5C9948E16}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{4CFD89A3-8241-4148-8364-78D5C9948E16}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{54E1D197-634E-44B1-9BF1-47B828CD38C0}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{54E1D197-634E-44B1-9BF1-47B828CD38C0}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{5A2AF24F-73EE-4776-8597-CB80AE038B07}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{5A2AF24F-73EE-4776-8597-CB80AE038B07}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{601E5067-F474-4461-8FB9-272AC454CA70}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{601E5067-F474-4461-8FB9-272AC454CA70}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{67DA1134-BF44-49F1-971B-46D38941CD2B}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{67DA1134-BF44-49F1-971B-46D38941CD2B}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{6E0027F9-8FB2-456E-B070-0301754029F0}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{6E0027F9-8FB2-456E-B070-0301754029F0}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{72F2CAD3-DEFF-489A-8CED-1F719AF93469}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{72F2CAD3-DEFF-489A-8CED-1F719AF93469}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{7B1C40C4-F5FA-41BC-BE0B-2CFAA4DB22CC}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{7B1C40C4-F5FA-41BC-BE0B-2CFAA4DB22CC}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{8D36151C-D50B-4D92-9987-18F2B3F8E6E2}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{8D36151C-D50B-4D92-9987-18F2B3F8E6E2}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{9C7A6EE3-0570-424D-85A1-27EB49A986AD}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{9C7A6EE3-0570-424D-85A1-27EB49A986AD}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{A34E6F87-A613-479F-A04E-27F84B8BD49E}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{A34E6F87-A613-479F-A04E-27F84B8BD49E}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{B8534211-9EAC-4E80-B324-72CC57270A34}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{B8534211-9EAC-4E80-B324-72CC57270A34}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{BE9EE568-D128-40AC-988D-D4D33B093677}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{BE9EE568-D128-40AC-988D-D4D33B093677}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{C51983E6-EB06-4C55-931C-851B093B85B5}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{C51983E6-EB06-4C55-931C-851B093B85B5}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{D181830C-FBDD-45E2-B3B1-A296522FD402}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{D181830C-FBDD-45E2-B3B1-A296522FD402}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{D3610770-0862-4B96-B3C7-A5B07FCA6F98}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{D3610770-0862-4B96-B3C7-A5B07FCA6F98}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{D8C41C70-22C3-40A0-93C6-8860A51A4D13}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{D8C41C70-22C3-40A0-93C6-8860A51A4D13}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{D92CEA83-6F6D-41F3-A85C-79C053481B0E}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{D92CEA83-6F6D-41F3-A85C-79C053481B0E}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{DDCF86E3-D3C7-40B3-A722-C670FA5228D8}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{DDCF86E3-D3C7-40B3-A722-C670FA5228D8}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{E04E38FA-4F1B-4C6E-AD2E-AEB687F4EA3A}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{E04E38FA-4F1B-4C6E-AD2E-AEB687F4EA3A}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{F0D5B3BF-0E0D-496E-88C7-A1A5168418FD}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{F0D5B3BF-0E0D-496E-88C7-A1A5168418FD}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{F3DACC10-4D0D-4355-9760-50B02F79F884}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{F3DACC10-4D0D-4355-9760-50B02F79F884}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="checksheet\{F7CD832F-FB1A-46FC-9521-B49987D1F6F1}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{F7CD832F-FB1A-46FC-9521-B49987D1F6F1}.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Check_Posting_Form.aspx.cs">
       <DependentUpon>Check_Posting_Form.aspx</DependentUpon>
@@ -1252,6 +1715,13 @@
     <Compile Include="IE_NC_Edit_Form.aspx.designer.cs">
       <DependentUpon>IE_NC_Edit_Form.aspx</DependentUpon>
     </Compile>
+    <Compile Include="IE_NC_Form.aspx.cs">
+      <DependentUpon>IE_NC_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_NC_Form.aspx.designer.cs">
+      <DependentUpon>IE_NC_Form.aspx</DependentUpon>
+    </Compile>
     <Compile Include="IE_Search_Form.aspx.cs">
       <DependentUpon>IE_Search_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1782,6 +2252,36 @@
     <Compile Include="Quality_Manual_Procedures.aspx.designer.cs">
       <DependentUpon>Quality_Manual_Procedures.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Query\audit_nr_rptChequeStatus.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>audit_nr_rptChequeStatus.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Query\rpt_exhbaddspace.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_exhbaddspace.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Query\{310F5A67-8871-459F-9B96-0FB5AC4B10BE}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{310F5A67-8871-459F-9B96-0FB5AC4B10BE}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Query\{9BFA2887-2729-4D0C-9637-062B0841421A}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{9BFA2887-2729-4D0C-9637-062B0841421A}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Query\{9EC799BA-D478-4423-B6FA-D3FB5EA1F475}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{9EC799BA-D478-4423-B6FA-D3FB5EA1F475}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Railways_Form.aspx.cs">
       <DependentUpon>Railways_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1874,12 +2374,30 @@
     <Compile Include="Rly_Online_Check_Posting_Form.aspx.designer.cs">
       <DependentUpon>Rly_Online_Check_Posting_Form.aspx</DependentUpon>
     </Compile>
+    <Compile Include="rptCallsIEVendorWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCallsIEVendorWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCallsMarkedVendorWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCallsMarkedVendorWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="rptIEWiseCallDetails.aspx.cs">
       <DependentUpon>rptIEWiseCallDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="rptIEWiseCallDetails.aspx.designer.cs">
       <DependentUpon>rptIEWiseCallDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rptInsp_Status_JVVNL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInsp_Status_JVVNL.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="rptPrint_Bill_Nos.aspx.cs">
       <DependentUpon>rptPrint_Bill_Nos.aspx</DependentUpon>
@@ -1992,6 +2510,13 @@
     </Compile>
     <Compile Include="TermsandConditions.aspx.designer.cs">
       <DependentUpon>TermsandConditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test1.aspx.cs">
+      <DependentUpon>test1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test1.aspx.designer.cs">
+      <DependentUpon>test1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training_Excel.aspx.cs">
       <DependentUpon>Training_Excel.aspx</DependentUpon>
@@ -2112,6 +2637,12 @@
     <Compile Include="Vendor\Call_Register_Edit.aspx.designer.cs">
       <DependentUpon>Call_Register_Edit.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Vendor\NR_Bill_GST.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NR_Bill_GST.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Vendor\PurchesOrder1_LOA.aspx.cs">
       <DependentUpon>PurchesOrder1_LOA.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2157,6 +2688,66 @@
     <Compile Include="Vendor\WebUserControl_Vend.ascx.cs">
       <DependentUpon>WebUserControl_Vend.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vendor\{3FF6EC26-9929-4CC5-B220-C3446A474256}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{3FF6EC26-9929-4CC5-B220-C3446A474256}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vendor\{41B2990C-4120-4DFF-90DF-90942E6811C9}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{41B2990C-4120-4DFF-90DF-90942E6811C9}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vendor\{42C3C8D0-FD93-4DF5-8FAF-D0DE8D5C2B72}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{42C3C8D0-FD93-4DF5-8FAF-D0DE8D5C2B72}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vendor\{6BA87918-2E40-4930-BCC2-97EDE1CF8515}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{6BA87918-2E40-4930-BCC2-97EDE1CF8515}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vendor\{860D0F8F-774C-48D3-87D3-FD0FE023E36A}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{860D0F8F-774C-48D3-87D3-FD0FE023E36A}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vendor\{92070261-2034-4D86-AF1B-9A57C59FA5AC}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{92070261-2034-4D86-AF1B-9A57C59FA5AC}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vendor\{A02C63D6-10BE-40B7-87B1-1C164FA0AF58}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{A02C63D6-10BE-40B7-87B1-1C164FA0AF58}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vendor\{B1236E01-03BC-4868-AE7C-C1CED1527647}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{B1236E01-03BC-4868-AE7C-C1CED1527647}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vendor\{DD1C3B82-E352-4903-AF1E-DE3D87DAFE79}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{DD1C3B82-E352-4903-AF1E-DE3D87DAFE79}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vendor\{F9CE5493-C747-4F2E-80B1-7DF6D0308112}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{F9CE5493-C747-4F2E-80B1-7DF6D0308112}.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Vendor_Call_Register_Form.aspx.cs">
       <DependentUpon>Vendor_Call_Register_Form.aspx</DependentUpon>
@@ -2221,6 +2812,12 @@
     <Compile Include="xPurchesOrderDetails.aspx.designer.cs">
       <DependentUpon>xPurchesOrderDetails.aspx</DependentUpon>
     </Compile>
+    <Compile Include="{35075847-411C-4D25-9794-19AF04015250}.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>{35075847-411C-4D25-9794-19AF04015250}.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Oracle.DataAccess.Common.Configuration.Section.xsd">
@@ -2238,13 +2835,401 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Bill.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Bill.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\bullgearsub1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>bullgearsub1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\Centeringdiskdrg.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Centeringdiskdrg.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\Centeringdiskdrg2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Centeringdiskdrg2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\CompactFluorecent.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CompactFluorecent.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\CompactFluorecent2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CompactFluorecent2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\CompactFluorecent3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CompactFluorecent3.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\CompactFluorecent4.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CompactFluorecent4.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\fishplatedim1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>fishplatedim1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\fishplatedim2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>fishplatedim2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\fishplatedim3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>fishplatedim3.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\fishplatedim4.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>fishplatedim4.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\fishplatedim5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>fishplatedim5.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\fishplatedims1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>fishplatedims1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\fishplatedimsub1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>fishplatedimsub1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\lowmaintances1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>lowmaintances1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptBullGear.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBullGear.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptCenteringdiskdrg1268840.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCenteringdiskdrg1268840.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptCompactFluorecent.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCompactFluorecent.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptDocumentChecks.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDocumentChecks.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptFireRetardantfbric.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFireRetardantfbric.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptFishplatebars.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFishplatebars.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptFishplatebars1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFishplatebars1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptLowmentance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLowmentance.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptSgciInjserts.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSgciInjserts.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptTestChecks.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTestChecks.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptTestChecks1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTestChecks1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptTestChecks2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTestChecks2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptTestChecks3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTestChecks3.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptTestChecks4.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTestChecks4.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptTestChecksForBull.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTestChecksForBull.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptTestCheckslowMaintance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTestCheckslowMaintance.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptVerticaldamper.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVerticaldamper.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptWeldingCables.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptWeldingCables.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\rptXlpeInsulatedpvc.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptXlpeInsulatedpvc.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\SgciInsertSub1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SgciInsertSub1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\SgciInsertSub2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SgciInsertSub2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\VerticalDamperSub1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VerticalDamperSub1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\WeldingCableSub1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WeldingCableSub1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\XLPEInsulatedSub1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>XLPEInsulatedSub1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{04A49147-0054-4397-AA6C-900946126717}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{04A49147-0054-4397-AA6C-900946126717}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{0C2F87B5-135A-4963-99EB-AA7764095DE7}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{0C2F87B5-135A-4963-99EB-AA7764095DE7}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{0C60F22E-4140-4537-A8B1-9D84EE6B94A3}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{0C60F22E-4140-4537-A8B1-9D84EE6B94A3}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{19401E80-F37E-4B14-BFAA-00E07651D318}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{19401E80-F37E-4B14-BFAA-00E07651D318}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{1EE3EA3B-953E-45DA-B651-6721678AC8DA}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{1EE3EA3B-953E-45DA-B651-6721678AC8DA}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{2459AA72-EAA4-4F2D-B884-BE1308E91410}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{2459AA72-EAA4-4F2D-B884-BE1308E91410}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{274895DB-F84E-4E37-B5D0-37E01AB0C19D}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{274895DB-F84E-4E37-B5D0-37E01AB0C19D}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{2D13937C-9845-4BD8-9DFF-556783F2AA0F}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{2D13937C-9845-4BD8-9DFF-556783F2AA0F}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{33C6FCA6-3ACE-49AA-A0F5-6BEFA25DA2F3}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{33C6FCA6-3ACE-49AA-A0F5-6BEFA25DA2F3}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{396E11C1-6274-49C7-BF40-35A065109864}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{396E11C1-6274-49C7-BF40-35A065109864}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{3BDEC8E6-A124-4CBB-8B40-8EF4CDE8FE2F}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{3BDEC8E6-A124-4CBB-8B40-8EF4CDE8FE2F}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{467D7951-598A-4CB0-898E-70E44E2D431E}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{467D7951-598A-4CB0-898E-70E44E2D431E}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{47443125-3A5C-4844-803E-A96AF285A292}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{47443125-3A5C-4844-803E-A96AF285A292}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{49D0F712-82B6-41C4-A1C2-B7895272EA37}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{49D0F712-82B6-41C4-A1C2-B7895272EA37}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{4CFD89A3-8241-4148-8364-78D5C9948E16}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{4CFD89A3-8241-4148-8364-78D5C9948E16}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{54E1D197-634E-44B1-9BF1-47B828CD38C0}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{54E1D197-634E-44B1-9BF1-47B828CD38C0}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{5A2AF24F-73EE-4776-8597-CB80AE038B07}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{5A2AF24F-73EE-4776-8597-CB80AE038B07}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{601E5067-F474-4461-8FB9-272AC454CA70}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{601E5067-F474-4461-8FB9-272AC454CA70}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{67DA1134-BF44-49F1-971B-46D38941CD2B}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{67DA1134-BF44-49F1-971B-46D38941CD2B}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{6E0027F9-8FB2-456E-B070-0301754029F0}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{6E0027F9-8FB2-456E-B070-0301754029F0}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{72F2CAD3-DEFF-489A-8CED-1F719AF93469}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{72F2CAD3-DEFF-489A-8CED-1F719AF93469}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{7B1C40C4-F5FA-41BC-BE0B-2CFAA4DB22CC}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{7B1C40C4-F5FA-41BC-BE0B-2CFAA4DB22CC}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{8D36151C-D50B-4D92-9987-18F2B3F8E6E2}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{8D36151C-D50B-4D92-9987-18F2B3F8E6E2}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{9C7A6EE3-0570-424D-85A1-27EB49A986AD}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{9C7A6EE3-0570-424D-85A1-27EB49A986AD}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{A34E6F87-A613-479F-A04E-27F84B8BD49E}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{A34E6F87-A613-479F-A04E-27F84B8BD49E}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{B8534211-9EAC-4E80-B324-72CC57270A34}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{B8534211-9EAC-4E80-B324-72CC57270A34}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{BE9EE568-D128-40AC-988D-D4D33B093677}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{BE9EE568-D128-40AC-988D-D4D33B093677}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{C51983E6-EB06-4C55-931C-851B093B85B5}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{C51983E6-EB06-4C55-931C-851B093B85B5}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{D181830C-FBDD-45E2-B3B1-A296522FD402}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{D181830C-FBDD-45E2-B3B1-A296522FD402}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{D3610770-0862-4B96-B3C7-A5B07FCA6F98}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{D3610770-0862-4B96-B3C7-A5B07FCA6F98}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{D8C41C70-22C3-40A0-93C6-8860A51A4D13}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{D8C41C70-22C3-40A0-93C6-8860A51A4D13}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{D92CEA83-6F6D-41F3-A85C-79C053481B0E}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{D92CEA83-6F6D-41F3-A85C-79C053481B0E}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{DDCF86E3-D3C7-40B3-A722-C670FA5228D8}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{DDCF86E3-D3C7-40B3-A722-C670FA5228D8}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{E04E38FA-4F1B-4C6E-AD2E-AEB687F4EA3A}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{E04E38FA-4F1B-4C6E-AD2E-AEB687F4EA3A}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{F0D5B3BF-0E0D-496E-88C7-A1A5168418FD}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{F0D5B3BF-0E0D-496E-88C7-A1A5168418FD}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{F3DACC10-4D0D-4355-9760-50B02F79F884}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{F3DACC10-4D0D-4355-9760-50B02F79F884}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checksheet\{F7CD832F-FB1A-46FC-9521-B49987D1F6F1}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{F7CD832F-FB1A-46FC-9521-B49987D1F6F1}.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="CrystalReport1.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReport1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab_Menu.aspx.resx" />
+    <EmbeddedResource Include="Query\audit_nr_rptChequeStatus.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>audit_nr_rptChequeStatus.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\rpt_exhbaddspace.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_exhbaddspace.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\{310F5A67-8871-459F-9B96-0FB5AC4B10BE}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{310F5A67-8871-459F-9B96-0FB5AC4B10BE}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\{9BFA2887-2729-4D0C-9637-062B0841421A}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{9BFA2887-2729-4D0C-9637-062B0841421A}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\{9EC799BA-D478-4423-B6FA-D3FB5EA1F475}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{9EC799BA-D478-4423-B6FA-D3FB5EA1F475}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCallsIEVendorWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCallsIEVendorWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCallsMarkedVendorWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCallsMarkedVendorWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptInsp_Status_JVVNL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInsp_Status_JVVNL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor\NR_Bill_GST.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>NR_Bill_GST.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vendor\WebUserControl_Vend.ascx.resx">
       <DependentUpon>WebUserControl_Vend.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor\{3FF6EC26-9929-4CC5-B220-C3446A474256}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{3FF6EC26-9929-4CC5-B220-C3446A474256}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor\{41B2990C-4120-4DFF-90DF-90942E6811C9}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{41B2990C-4120-4DFF-90DF-90942E6811C9}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor\{42C3C8D0-FD93-4DF5-8FAF-D0DE8D5C2B72}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{42C3C8D0-FD93-4DF5-8FAF-D0DE8D5C2B72}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor\{6BA87918-2E40-4930-BCC2-97EDE1CF8515}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{6BA87918-2E40-4930-BCC2-97EDE1CF8515}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor\{860D0F8F-774C-48D3-87D3-FD0FE023E36A}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{860D0F8F-774C-48D3-87D3-FD0FE023E36A}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor\{92070261-2034-4D86-AF1B-9A57C59FA5AC}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{92070261-2034-4D86-AF1B-9A57C59FA5AC}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor\{A02C63D6-10BE-40B7-87B1-1C164FA0AF58}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{A02C63D6-10BE-40B7-87B1-1C164FA0AF58}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor\{B1236E01-03BC-4868-AE7C-C1CED1527647}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{B1236E01-03BC-4868-AE7C-C1CED1527647}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor\{DD1C3B82-E352-4903-AF1E-DE3D87DAFE79}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{DD1C3B82-E352-4903-AF1E-DE3D87DAFE79}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor\{F9CE5493-C747-4F2E-80B1-7DF6D0308112}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{F9CE5493-C747-4F2E-80B1-7DF6D0308112}.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{35075847-411C-4D25-9794-19AF04015250}.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>{35075847-411C-4D25-9794-19AF04015250}.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
