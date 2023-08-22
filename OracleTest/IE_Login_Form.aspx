@@ -1,8 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="IE_Login_Form.aspx.cs" Inherits="RBS.IE_Login_Form.IE_Login_Form" %>
+﻿<%@ Page Language="C#" AutoEventWireup="false" CodeBehind="IE_Login_Form.aspx.cs" Inherits="RBS.IE_Login_Form" %>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
-<HTML>
-  <HEAD>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
 		<title>IE_Login_Form</title>
 		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
 		<meta content="C#" name="CODE_LANGUAGE">
@@ -25,7 +26,7 @@
 		}
         </script>
 </HEAD>
-	<body onload="javascript:document.Form1.txtUserId.focus();">
+	<body MS_POSITIONING="GridLayout" onload="javascript:document.Form1.txtUserId.focus();">
 		<form id="Form1" method="post" runat="server">
 			<TABLE id="Table1" style="Z-INDEX: 101; LEFT: 240px; POSITION: absolute; TOP: 128px; HEIGHT: 160px"
 				height="160" cellSpacing="0" cellPadding="1" width="50%" border="1" borderColor="#003399"
@@ -45,9 +46,9 @@
 					<TD bgColor="#f0f8ff"><asp:TextBox id="txtPwd" runat="server" Width="96px" TextMode="Password"></asp:TextBox></TD>
 				<TR>
 					<TD align="right" colspan="2"><asp:Button id="btnLogin" runat="server" Text="Login" Font-Names="Verdana" Font-Bold="True"
-							ForeColor="DarkBlue" onclick="btnLogin_Click"></asp:Button>
+							ForeColor="DarkBlue"></asp:Button>
 						<asp:Button id="btnCPWD" runat="server" ForeColor="DarkBlue" Font-Bold="True" Font-Names="Verdana"
-							Text="Change Password" onclick="btnCPWD_Click"></asp:Button></TD>
+							Text="Change Password"></asp:Button></TD>
 				</TR>
 				<TR>
 					<TD align="center" colSpan="2">
@@ -58,4 +59,4 @@
 				runat="server" ForeColor="Purple" Font-Bold="True" Font-Names="Verdana" NavigateUrl="  " Font-Size="8pt">Exit</asp:hyperlink>
 		</form>
 	</body>
-</HTML>
+</html>

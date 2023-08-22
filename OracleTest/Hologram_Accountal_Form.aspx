@@ -1,7 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Hologram_Accountal_Form.aspx.cs" Inherits="RBS.Hologram_Accountal_Form.Hologram_Accountal_Form" %>
-
-<%@ Register TagPrefix="uc1" TagName="WebUserControl1" Src="WebUserControl1.ascx" %>
-
+﻿<%@ Register TagPrefix="uc1" TagName="WebUserControl1" Src="WebUserControl1.ascx" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Hologram_Accountal_Form.aspx.cs" Inherits="RBS.Hologram_Accountal_Form.Hologram_Accountal_Form" %>
 <%@ Register TagPrefix="Tittle" Namespace="Tittle.Controls" Assembly="Controls" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
 <HTML>
@@ -402,7 +400,7 @@
 								<asp:TemplateColumn>
 									<HeaderStyle Width="5%"></HeaderStyle>
 									<ItemTemplate>
-										<asp:HyperLink id=Hyperlink2 Text='<%# DataBinder.Eval(Container.DataItem,"REC_NO")%>' Runat="server" NavigateUrl='<%#"Hologram_Accountal_Form.aspx?CASE_NO=" + DataBinder.Eval(Container.DataItem,"CASE_NO")+ "&amp;CALL_RECV_DT=" + DataBinder.Eval(Container.DataItem,"CALL_RECV_DT")+ "&amp;CALL_SNO=" + DataBinder.Eval(Container.DataItem,"CALL_SNO")+ "&amp;CONSIGNEE_CD=" + DataBinder.Eval(Container.DataItem,"CONSIGNEE_CD")+ "&amp;REC_NO=" + DataBinder.Eval(Container.DataItem,"REC_NO")%>'>
+										<asp:HyperLink id=Hyperlink2 Text='<%# DataBinder.Eval(Container.DataItem,"REC_NO")%>' Runat="server" NavigateUrl="<%#"Hologram_Accountal_Form.aspx?CASE_NO=" + DataBinder.Eval(Container.DataItem,"CASE_NO")+ "&amp;CALL_RECV_DT=" + DataBinder.Eval(Container.DataItem,"CALL_RECV_DT")+ "&amp;CALL_SNO=" + DataBinder.Eval(Container.DataItem,"CALL_SNO")+ "&amp;CONSIGNEE_CD=" + DataBinder.Eval(Container.DataItem,"CONSIGNEE_CD")+ "&amp;REC_NO=" + DataBinder.Eval(Container.DataItem,"REC_NO")%>">
 										</asp:HyperLink>
 									</ItemTemplate>
 								</asp:TemplateColumn>
@@ -435,4 +433,4 @@
 			</TABLE>
 		</form>
 	</body>
-</HTML>
+</HTML>TML>

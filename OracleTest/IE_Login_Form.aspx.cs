@@ -7,14 +7,18 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace RBS.IE_Login_Form
+namespace RBS
 {
-	public partial class IE_Login_Form : System.Web.UI.Page
-	{
+    public partial class IE_Login_Form : System.Web.UI.Page
+    {
+        protected System.Web.UI.WebControls.Button btnLogin;
+        protected System.Web.UI.WebControls.TextBox txtPwd;
+        protected System.Web.UI.WebControls.TextBox txtUserId;
+        protected System.Web.UI.WebControls.Button btnCPWD;
+        protected System.Web.UI.WebControls.HyperLink HyperLink2;        
 		OracleConnection conn = new OracleConnection(ConfigurationManager.ConnectionStrings["MyConnection"].ConnectionString);
 
-
-		protected void Page_Load(object sender, System.EventArgs e)
+		private void Page_Load(object sender, System.EventArgs e)
 		{
 			btnLogin.Attributes.Add("OnClick", "JavaScript:validate();");
 		}
@@ -34,11 +38,14 @@ namespace RBS.IE_Login_Form
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+			this.btnCPWD.Click += new System.EventHandler(this.btnCPWD_Click);
+			this.Load += new System.EventHandler(this.Page_Load);
 
 		}
 		#endregion
 
-		protected void btnLogin_Click(object sender, System.EventArgs e)
+		private void btnLogin_Click(object sender, System.EventArgs e)
 		{
 			try
 			{
@@ -82,7 +89,7 @@ namespace RBS.IE_Login_Form
 			}
 		}
 
-		protected void btnCPWD_Click(object sender, System.EventArgs e)
+		private void btnCPWD_Click(object sender, System.EventArgs e)
 		{
 			Response.Redirect("Change_IE_Pwd_Form.aspx");
 		}

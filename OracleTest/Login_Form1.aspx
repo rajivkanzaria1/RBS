@@ -161,7 +161,7 @@
 										<TD style="FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: steelblue; FONT-FAMILY: Verdana"
 											vAlign="middle" align="left"><U>User Login</U></TD>
 										<TD style="HEIGHT: 40px" vAlign="middle" align="left"><IMG id="BArrow6" src="\RBS\images\BArrow.gif"><asp:hyperlink id="HyperLink1" runat="server" Height="24px" ForeColor="RoyalBlue" Font-Bold="True"
-												Font-Names="Verdana" Font-Size="11pt" NavigateUrl="\RBS\IE_Login_Form.aspx">I E Login</asp:hyperlink></TD>
+												Font-Names="Verdana" Font-Size="11pt" NavigateUrl="\IE_Login_Form.aspx">I E Login</asp:hyperlink></TD>
 									</TR>
 									<TR height="30%">
 										<TD style="WIDTH: 50%" vAlign="top" align="left" height="134">

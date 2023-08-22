@@ -172,7 +172,7 @@
 								<Columns>
 									<asp:TemplateColumn>
 										<ItemTemplate>
-											<asp:HyperLink id="Hyperlink2" NavigateUrl='<%#"IC_Receipt.aspx?BK_NO=" + DataBinder.Eval(Container.DataItem,"BK_NO") + "&amp;SET_NO=" + DataBinder.Eval(Container.DataItem,"SET_NO")%>' Runat="server">Select</asp:HyperLink>
+											<asp:HyperLink id="Hyperlink2" NavigateUrl="<%#"IC_Receipt.aspx?BK_NO=" + DataBinder.Eval(Container.DataItem,"BK_NO") + "&amp;SET_NO=" + DataBinder.Eval(Container.DataItem,"SET_NO")%>" Runat="server">Select</asp:HyperLink>
 										</ItemTemplate>
 									</asp:TemplateColumn>
 									<asp:BoundColumn DataField="BK_NO" HeaderText="Book No."></asp:BoundColumn>

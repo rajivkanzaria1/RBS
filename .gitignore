@@ -1,8 +1,67 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Ignore Visual Studio files
+.vscode/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.vspscc
+*_i.c
+*_p.c
+*.pidb
+*.log
+*.cache
+*.inf
+*.bak
+*.dll.refresh
+*.sdb
+*.opensdf
+*.VC.db
+*.dbmdl
 
-/OracleTest/bin/roslyn
-/.vs/RBS
-/OracleTest/bin
-/OracleTest/obj/Debug
+# Ignore NuGet packages
+*.nuget.props
+*.nuget.targets
+*.dlls
+*.nupkg
+packages/
+
+# Ignore build output
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Ignore publish directory
+[Pp]ublish/
+
+# Ignore Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Ignore Rider files
+.idea/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+[Tt]humbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.vsconfig
+
+# Ignore application-specific folders
+node_modules/
+bower_components/
+dist/
+npm-debug.log*

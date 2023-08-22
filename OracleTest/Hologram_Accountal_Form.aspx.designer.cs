@@ -30,7 +30,7 @@ namespace RBS.Hologram_Accountal_Form
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl WebUserControl11;
+        protected global::RBS.WebUserControl2 WebUserControl11;
 
         /// <summary>
         /// txtSysDate control.

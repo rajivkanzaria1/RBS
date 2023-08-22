@@ -15,6 +15,13 @@ namespace RBS
 		//OracleConnection conn = new OracleConnection(ConfigurationManager.ConnectionStrings["MyConnection"].ConnectionString);
 		protected System.Web.UI.WebControls.TextBox txtRole;
 		protected System.Web.UI.WebControls.TextBox TextBox2;
+		protected System.Web.UI.WebControls.HyperLink HyperLink1;
+		protected System.Web.UI.WebControls.Image Image3;
+		protected System.Web.UI.WebControls.TextBox txtUname;
+		protected System.Web.UI.WebControls.TextBox txtPwd;
+		protected System.Web.UI.WebControls.Button btnChangePwd;
+		protected System.Web.UI.WebControls.Button btnSubmit;
+		protected Tittle.Controls.CustomDataGrid grdMessage;
 		string reg, allow_po;
 
 		//[System.Diagnostics.DebuggerStepThrough()] 

@@ -186,7 +186,7 @@ namespace RBS.IE_Instructions
 		private void DisplayAlert1(string msg)
 		{
 			msg = msg + " Do You Still Want to Proceed?";
-			Response.Write("<script language=JavaScript> var d=confirm('" + msg + "'); if(d==true) location.href='/RBS/IE_Menu.aspx';</script>");
+			Response.Write("<script language=JavaScript> var d=confirm('" + msg + "'); if(d==true) location.href='/IE_Menu.aspx';</script>");
 		}
 
 		private void DisplayAlert(string msg)

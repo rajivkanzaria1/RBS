@@ -193,7 +193,7 @@
 								<asp:TemplateColumn HeaderText="Item SNo.">
 									<HeaderStyle Width="5%"></HeaderStyle>
 									<ItemTemplate>
-										<asp:HyperLink id=Hyperlink1 Text='<%# DataBinder.Eval(Container.DataItem,"ITEM_SRNO_PO")%>' Runat="server" NavigateUrl='<%#"Call_Details_Form.aspx?Case_No=" + CNO + "&amp;DT_RECIEPT=" + DT +"&amp;CALL_SNO=" + CSNO +"&amp;cstatus="+ cstatus + "&amp;Serial_No=" + DataBinder.Eval(Container.DataItem,"ITEM_SRNO_PO") + "&amp;status="+DataBinder.Eval(Container.DataItem,"STATUS")%>'>
+										<asp:HyperLink id="Hyperlink1" Text="<%# DataBinder.Eval(Container.DataItem,"ITEM_SRNO_PO")%>" Runat="server" NavigateUrl="<%#"Call_Details_Form.aspx?Case_No=" + CNO + "&amp;DT_RECIEPT=" + DT +"&amp;CALL_SNO=" + CSNO +"&amp;cstatus="+ cstatus + "&amp;Serial_No=" + DataBinder.Eval(Container.DataItem,"ITEM_SRNO_PO") + "&amp;status="+DataBinder.Eval(Container.DataItem,"STATUS")%>">
 										</asp:HyperLink>
 									</ItemTemplate>
 								</asp:TemplateColumn>

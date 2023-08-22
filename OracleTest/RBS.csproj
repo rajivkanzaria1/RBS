@@ -298,6 +298,7 @@
     <Content Include="IE_MAXIMUMCALLLIMIT.aspx" />
     <Content Include="IE_Menu.aspx" />
     <Content Include="IE_NC_Edit_Form.aspx" />
+    <Content Include="IE_NC_Form.aspx" />
     <Content Include="IE_Search_Form.aspx" />
     <Content Include="Incoming_Dak_Edit.aspx" />
     <Content Include="Incoming_Dak_Form.aspx" />
@@ -382,6 +383,10 @@
     <Content Include="Region_Selection_Form.aspx" />
     <Content Include="Replace_BPO.aspx" />
     <Content Include="Replace_Cheques_Form.aspx" />
+    <Content Include="Reports\pfrmFromToDate.aspx" />
+    <Content Include="Reports\pfrmIEDairy.aspx" />
+    <Content Include="Reports\pfrmIEWorkPlan.aspx" />
+    <Content Include="Reports\rptIC_STATUS.aspx" />
     <Content Include="Report_BPO_WISE_BILL_CHECK.aspx" />
     <Content Include="Resources_Form.aspx" />
     <Content Include="Returned_Bills_BPO_Change_Form.aspx" />
@@ -1253,6 +1258,13 @@
     <Compile Include="IE_NC_Edit_Form.aspx.designer.cs">
       <DependentUpon>IE_NC_Edit_Form.aspx</DependentUpon>
     </Compile>
+    <Compile Include="IE_NC_Form.aspx.cs">
+      <DependentUpon>IE_NC_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_NC_Form.aspx.designer.cs">
+      <DependentUpon>IE_NC_Form.aspx</DependentUpon>
+    </Compile>
     <Compile Include="IE_Search_Form.aspx.cs">
       <DependentUpon>IE_Search_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1833,6 +1845,34 @@
     <Compile Include="Replace_Cheques_Form.aspx.designer.cs">
       <DependentUpon>Replace_Cheques_Form.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Reports\pfrmFromToDate.aspx.cs">
+      <DependentUpon>pfrmFromToDate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\pfrmFromToDate.aspx.designer.cs">
+      <DependentUpon>pfrmFromToDate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\pfrmIEDairy.aspx.cs">
+      <DependentUpon>pfrmIEDairy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\pfrmIEDairy.aspx.designer.cs">
+      <DependentUpon>pfrmIEDairy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\pfrmIEWorkPlan.aspx.cs">
+      <DependentUpon>pfrmIEWorkPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\pfrmIEWorkPlan.aspx.designer.cs">
+      <DependentUpon>pfrmIEWorkPlan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptIC_STATUS.aspx.cs">
+      <DependentUpon>rptIC_STATUS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\rptIC_STATUS.aspx.designer.cs">
+      <DependentUpon>rptIC_STATUS.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Report_BPO_WISE_BILL_CHECK.aspx.cs">
       <DependentUpon>Report_BPO_WISE_BILL_CHECK.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1875,12 +1915,21 @@
     <Compile Include="Rly_Online_Check_Posting_Form.aspx.designer.cs">
       <DependentUpon>Rly_Online_Check_Posting_Form.aspx</DependentUpon>
     </Compile>
+    <Compile Include="rptCallsIEVendorWise.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCallsMarkedVendorWise.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="rptIEWiseCallDetails.aspx.cs">
       <DependentUpon>rptIEWiseCallDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="rptIEWiseCallDetails.aspx.designer.cs">
       <DependentUpon>rptIEWiseCallDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rptInsp_Status_JVVNL.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="rptPrint_Bill_Nos.aspx.cs">
       <DependentUpon>rptPrint_Bill_Nos.aspx</DependentUpon>
@@ -2238,6 +2287,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
+    <Content Include="rptCallsIEVendorWise.rpt" />
+    <Content Include="rptCallsMarkedVendorWise.rpt" />
+    <Content Include="rptInsp_Status_JVVNL.rpt" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
