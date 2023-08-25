@@ -376,6 +376,7 @@
     <Content Include="PurchesOrder_Form.aspx" />
     <Content Include="QA_VEDIO.aspx" />
     <Content Include="Quality_Manual_Procedures.aspx" />
+    <Content Include="Query\qryUnInspectedQty.aspx" />
     <Content Include="Railways_Form.aspx" />
     <Content Include="Rail_Price_Form.aspx" />
     <Content Include="Reciepts_Edit_Form.aspx" />
@@ -434,6 +435,7 @@
     <Content Include="Vendor\Vendor_Menu.aspx" />
     <Content Include="Vendor\Vendor_PurchesOrder1_Form.aspx" />
     <Content Include="Vendor\WebUserControl_Vend.ascx" />
+    <Content Include="Vendor_Calls_Marked_Form.aspx" />
     <Content Include="Vendor_Call_Register_Form.aspx" />
     <Content Include="VENDOR_CLUSTER.aspx" />
     <Content Include="Vendor_Feedback_Form.aspx" />
@@ -892,6 +894,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="CrystalReportViewerPage.aspx.cs">
@@ -1795,6 +1803,16 @@
     <Compile Include="Quality_Manual_Procedures.aspx.designer.cs">
       <DependentUpon>Quality_Manual_Procedures.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Query\audit_nr_rptChequeStatus1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Query\qryUnInspectedQty.aspx.cs">
+      <DependentUpon>qryUnInspectedQty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Query\qryUnInspectedQty.aspx.designer.cs">
+      <DependentUpon>qryUnInspectedQty.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Railways_Form.aspx.cs">
       <DependentUpon>Railways_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2215,6 +2233,13 @@
       <DependentUpon>WebUserControl_Vend.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Vendor_Calls_Marked_Form.aspx.cs">
+      <DependentUpon>Vendor_Calls_Marked_Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vendor_Calls_Marked_Form.aspx.designer.cs">
+      <DependentUpon>Vendor_Calls_Marked_Form.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Vendor_Call_Register_Form.aspx.cs">
       <DependentUpon>Vendor_Call_Register_Form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2290,6 +2315,11 @@
     <Content Include="rptCallsIEVendorWise.rpt" />
     <Content Include="rptCallsMarkedVendorWise.rpt" />
     <Content Include="rptInsp_Status_JVVNL.rpt" />
+    <Content Include="Query\audit_nr_rptChequeStatus.rpt" />
+    <Content Include="Query\rpt_exhbaddspace.rpt" />
+    <Content Include="Query\{310F5A67-8871-459F-9B96-0FB5AC4B10BE}.rpt" />
+    <Content Include="Query\{9BFA2887-2729-4D0C-9637-062B0841421A}.rpt" />
+    <Content Include="Query\{9EC799BA-D478-4423-B6FA-D3FB5EA1F475}.rpt" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -2301,6 +2331,10 @@
     <EmbeddedResource Include="CrystalReport1.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab_Menu.aspx.resx" />
     <EmbeddedResource Include="Vendor\WebUserControl_Vend.ascx.resx">

@@ -1,5 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="IC_Receipt.aspx.cs" Inherits="RBS.IC_Receipt.IC_Receipt" %>
 
+<%@ Register TagPrefix="Tittle" Namespace="Tittle.Controls" Assembly="Controls" %>
 <%@ Register TagPrefix="uc1" TagName="WebUserControl1" Src="WebUserControl1.ascx" %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
@@ -172,7 +173,7 @@
 								<Columns>
 									<asp:TemplateColumn>
 										<ItemTemplate>
-											<asp:HyperLink id="Hyperlink2" NavigateUrl="<%#"IC_Receipt.aspx?BK_NO=" + DataBinder.Eval(Container.DataItem,"BK_NO") + "&amp;SET_NO=" + DataBinder.Eval(Container.DataItem,"SET_NO")%>" Runat="server">Select</asp:HyperLink>
+											<asp:HyperLink id="Hyperlink2" NavigateUrl='<%#"IC_Receipt.aspx?BK_NO=" + DataBinder.Eval(Container.DataItem,"BK_NO") + "&amp;SET_NO=" + DataBinder.Eval(Container.DataItem,"SET_NO")%>' Runat="server">Select</asp:HyperLink>
 										</ItemTemplate>
 									</asp:TemplateColumn>
 									<asp:BoundColumn DataField="BK_NO" HeaderText="Book No."></asp:BoundColumn>
