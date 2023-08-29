@@ -283,7 +283,7 @@
 										<asp:TemplateColumn HeaderText="Mark">
 											<HeaderStyle Width="5%"></HeaderStyle>
 											<ItemTemplate>
-												<asp:HyperLink id=Hyperlink2 Runat="server" NavigateUrl="<%#"Vendor_Calls_Marked_Form.aspx?CASE_NO=" + DataBinder.Eval(Container.DataItem,"CASE_NO") + "&amp;CALL_RECV_DT=" + DataBinder.Eval(Container.DataItem,"CALL_RECV_DT")+ "&amp;CALL_SNO=" + DataBinder.Eval(Container.DataItem,"CALL_SNO")+ "&amp;CHECK_SELECTED=" + wchk_val +"&amp;RUN_DT=" + wrun_dt%>">Mark</asp:HyperLink>
+												<asp:HyperLink id=Hyperlink2 Runat="server" NavigateUrl='<%#"Vendor_Calls_Marked_Form.aspx?CASE_NO=" + DataBinder.Eval(Container.DataItem,"CASE_NO") + "&amp;CALL_RECV_DT=" + DataBinder.Eval(Container.DataItem,"CALL_RECV_DT")+ "&amp;CALL_SNO=" + DataBinder.Eval(Container.DataItem,"CALL_SNO")+ "&amp;CHECK_SELECTED=" + wchk_val +"&amp;RUN_DT=" + wrun_dt%>'>Mark</asp:HyperLink>
 											</ItemTemplate>
 										</asp:TemplateColumn>
 										<asp:BoundColumn DataField="CASE_NO" HeaderText="Case No.">
