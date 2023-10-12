@@ -1098,12 +1098,12 @@ namespace RBS
 				string mail_body = "Dear Sir/Madam,\n\n Call Letter dated:  " + call_letter_dt + " for inspection of material against PO No. - " + lblPONO.Text + " dated - " + lblPODT.Text + ", Case No -  " + txtCaseNo.Text + ", on date: " + txtDtOfReciept.Text + ", at SNo. " + lblCSNO.Text + ". The Call is rejected due to following Reason:- " + txtRejReason.Text + ", so not marked and deleted. Please Resubmit the call after making necessary corrections. \n\n Thanks for using RITES Inspection Services. \n\n" + wRegion + ".";
 
 				mail_body = mail_body + "\n\n THIS IS AN AUTO GENERATED EMAIL. PLEASE DO NOT REPLY. USE EMAIL GIVEN IN THE REGION ADDRESS";
-
+				sender = "hardiksilvertouch007@outlook.com"; //Testing Mail ID
 				if (vend_cd == mfg_cd && manu_mail != "")
 				{
 					MailMessage mail = new MailMessage();
 					mail.To = manu_mail;
-					mail.Bcc = "nrinspn@gmail.com";
+					//mail.Bcc = "nrinspn@gmail.com";
 					mail.From = sender;
 					mail.Subject = "Your Call for Inspection By RITES";
 					mail.Body = mail_body;
@@ -1120,7 +1120,7 @@ namespace RBS
 					{
 						MailMessage mail = new MailMessage();
 						mail.To = manu_mail;
-						mail.Bcc = "nrinspn@gmail.com";
+						//mail.Bcc = "nrinspn@gmail.com";
 						mail.From = sender;
 						mail.Subject = "Your Call for Inspection By RITES";
 						mail.Body = mail_body;
@@ -1135,7 +1135,7 @@ namespace RBS
 					{
 						MailMessage mail1 = new MailMessage();
 						mail1.To = vend_email;
-						mail1.Bcc = "nrinspn@gmail.com";
+						//mail1.Bcc = "nrinspn@gmail.com";
 						mail1.From = sender;
 						mail1.Subject = "Your Call for Inspection By RITES";
 						mail1.Body = mail_body;
@@ -1149,7 +1149,7 @@ namespace RBS
 					{
 						MailMessage mail2 = new MailMessage();
 						mail2.To = vend_email + ";" + manu_mail;
-						mail2.Bcc = "nrinspn@gmail.com";
+						//mail2.Bcc = "nrinspn@gmail.com";
 						mail2.From = sender;
 						mail2.Subject = "Your Call for Inspection By RITES";
 						mail2.Body = mail_body;

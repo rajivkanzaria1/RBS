@@ -49,7 +49,7 @@ namespace RBS
 		{
 			try
 			{
-				string mySql = "Select IE_CD,IE_NAME,IE_EMP_NO,IE_PWD,IE_REGION from T09_IE Where IE_EMP_NO=" + txtUserId.Text + " and IE_PWD='" + txtPwd.Text + "' and IE_STATUS is null";
+				string mySql = "Select IE_CD,IE_NAME,IE_EMP_NO,IE_PWD,IE_REGION from T09_IE Where IE_EMP_NO='" + txtUserId.Text + "' and IE_PWD='" + txtPwd.Text + "' and IE_STATUS is null";
 				OracleCommand cmd = new OracleCommand(mySql, conn);
 				conn.Open();
 				OracleDataReader reader = cmd.ExecuteReader();

@@ -36,7 +36,7 @@ namespace RBS.Call_Status_Edit_Form
 			HprInspecttestPlan.NavigateUrl = "/RBS/IC_InspectionTstPln.aspx?CASE_NO=" + CASE_NO + "&CALL_RECV_DT=" + CALL_RECV_DT + "&CALL_SNO=" + CALL_SNO + "&IE_CD=" + wIECD + "&ACTIONAR=" + lstCallStatus.SelectedValue + "&ACTION=" + Request.Params["ACTION"].Trim() + "";
 			HprInspecttestPlan.Visible = false;
 			#endregion
-			HyperLink2AR.NavigateUrl = "/RBS/IC_Intermediate.aspx?CASE_NO=" + CASE_NO + "&CALL_RECV_DT=" + CALL_RECV_DT + "&CALL_SNO=" + CALL_SNO + "&IE_CD=" + wIECD + "&ACTIONAR=" + lstCallStatus.SelectedValue + "&ACTION=" + Request.Params["ACTION"].Trim() + "' Font-Names='Verdana' Font-Size='8pt'";
+			HyperLink2AR.NavigateUrl = "/IC_Intermediate.aspx?CASE_NO=" + CASE_NO + "&CALL_RECV_DT=" + CALL_RECV_DT + "&CALL_SNO=" + CALL_SNO + "&IE_CD=" + wIECD + "&ACTIONAR=" + lstCallStatus.SelectedValue + "&ACTION=" + Request.Params["ACTION"].Trim() + "' Font-Names='Verdana' Font-Size='8pt'";
 			HyperLink2AR.Visible = false;
 			if (!(IsPostBack))
 			{
