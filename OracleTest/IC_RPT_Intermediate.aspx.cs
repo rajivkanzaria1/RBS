@@ -727,7 +727,7 @@ namespace RBS
 			try
 			{
 				crystalReport = new CrystalDecisions.CrystalReports.Engine.ReportDocument();
-				cristalview.DisplayGroupTree = false;
+				//cristalview.DisplayGroupTree = false;
 				DataSet dsCustom = new DataSet();
 				if (Session["Region"].ToString() == "C")
 				{
@@ -755,7 +755,7 @@ namespace RBS
 					dsCustom = funInspectionCertificate(caseNo, callSNo, recvDtRpt, ddlCondignee.SelectedValue, Convert.ToString(Session["Region"]));
 				}
 				crystalReport.SetDataSource(dsCustom);
-				cristalview.ReportSource = crystalReport;
+				//cristalview.ReportSource = crystalReport;
 
 				//string recvDtQry = "26-NOV-2010";
 

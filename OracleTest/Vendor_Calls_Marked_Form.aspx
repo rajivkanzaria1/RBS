@@ -218,7 +218,7 @@
 														ForeColor="DarkBlue">Item to be inspected viz. Mechanical, Electrical, Civil etc</asp:label></TD>
 												<TD style="WIDTH: 30.43%; HEIGHT: 28px" align="left">
 													<asp:dropdownlist id="ddlDept" tabIndex="9" runat="server" Width="150px" ForeColor="DarkBlue" Font-Size="8pt"
-														Font-Names="Verdana" Height="25px" AutoPostBack="True"></asp:dropdownlist>
+														Font-Names="Verdana" Height="25px" AutoPostBack="True" OnSelectedIndexChanged="ddlDept_SelectedIndexChanged1"></asp:dropdownlist>
 													<asp:label id="lblDept_CD" runat="server" Width="256px" ForeColor="OrangeRed" Font-Bold="True"
 														Font-Size="8pt" Font-Names="Verdana" Visible="True" Height="14px"></asp:label> <%--False--%>
 													<asp:label id="lblDepartment" runat="server" Width="256px" ForeColor="OrangeRed" Font-Bold="True"

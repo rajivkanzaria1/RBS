@@ -691,3 +691,4 @@ D:\RBS\OracleTest\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 D:\RBS\OracleTest\bin\CRVsPackageLib.dll
 D:\RBS\OracleTest\bin\CrystalDecisions.Windows.Forms.dll
 D:\RBS\OracleTest\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\RBS\OracleTest\bin\Oracle.DataAccess.dll
