@@ -46,9 +46,9 @@
 					<TD bgColor="#f0f8ff"><asp:TextBox id="txtPwd" runat="server" Width="96px" TextMode="Password"></asp:TextBox></TD>
 				<TR>
 					<TD align="right" colspan="2"><asp:Button id="btnLogin" runat="server" Text="Login" Font-Names="Verdana" Font-Bold="True"
-							ForeColor="DarkBlue"></asp:Button>
+							ForeColor="DarkBlue" onclick="btnLogin_Click"></asp:Button>
 						<asp:Button id="btnCPWD" runat="server" ForeColor="DarkBlue" Font-Bold="True" Font-Names="Verdana"
-							Text="Change Password"></asp:Button></TD>
+							Text="Change Password"  onclick="btnCPWD_Click"></asp:Button></TD>
 				</TR>
 				<TR>
 					<TD align="center" colSpan="2">

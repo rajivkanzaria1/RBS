@@ -32,7 +32,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -387,6 +387,7 @@
     <Content Include="Region_Selection_Form.aspx" />
     <Content Include="Replace_BPO.aspx" />
     <Content Include="Replace_Cheques_Form.aspx" />
+    <Content Include="Reports\pfrmAdvanceOutstanding.aspx" />
     <Content Include="Reports\pfrmCOIEWiseCalls.aspx" />
     <Content Include="Reports\pfrmCompliants.aspx" />
     <Content Include="Reports\pfrmCrisPayementRec.aspx" />
@@ -395,9 +396,14 @@
     <Content Include="Reports\pfrmIE7thCopy.aspx" />
     <Content Include="Reports\pfrmIEDairy.aspx" />
     <Content Include="Reports\pfrmIEWorkPlan.aspx" />
+    <Content Include="Reports\pfrmNCR.aspx" />
+    <Content Include="Reports\pfrmOngoing_Contracts.aspx" />
+    <Content Include="Reports\pfrmTrainingDetails.aspx" />
+    <Content Include="Reports\prmOverdue_Pending.aspx" />
     <Content Include="Reports\rptIC_STATUS.aspx" />
     <Content Include="Reports\rptIEAccToCO.aspx" />
     <Content Include="Reports\rptInspBillingDelay.aspx" />
+    <Content Include="Reports\rptOutstanding.aspx" />
     <Content Include="Report_BPO_WISE_BILL_CHECK.aspx" />
     <Content Include="Resources_Form.aspx" />
     <Content Include="Returned_Bills_BPO_Change_Form.aspx" />
@@ -1894,6 +1900,10 @@
     <Compile Include="Replace_Cheques_Form.aspx.designer.cs">
       <DependentUpon>Replace_Cheques_Form.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Reports\pfrmAdvanceOutstanding.aspx.cs">
+      <DependentUpon>pfrmAdvanceOutstanding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Reports\pfrmCOIEWiseCalls.aspx.cs">
       <DependentUpon>pfrmCOIEWiseCalls.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1950,6 +1960,22 @@
     <Compile Include="Reports\pfrmIEWorkPlan.aspx.designer.cs">
       <DependentUpon>pfrmIEWorkPlan.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Reports\pfrmNCR.aspx.cs">
+      <DependentUpon>pfrmNCR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\pfrmOngoing_Contracts.aspx.cs">
+      <DependentUpon>pfrmOngoing_Contracts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\pfrmTrainingDetails.aspx.cs">
+      <DependentUpon>pfrmTrainingDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\prmOverdue_Pending.aspx.cs">
+      <DependentUpon>prmOverdue_Pending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Reports\rptIC_STATUS.aspx.cs">
       <DependentUpon>rptIC_STATUS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1970,6 +1996,10 @@
     </Compile>
     <Compile Include="Reports\rptInspBillingDelay.aspx.designer.cs">
       <DependentUpon>rptInspBillingDelay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptOutstanding.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>rptOutstanding.aspx</DependentUpon>
     </Compile>
     <Compile Include="Report_BPO_WISE_BILL_CHECK.aspx.cs">
       <DependentUpon>Report_BPO_WISE_BILL_CHECK.aspx</DependentUpon>
@@ -2417,6 +2447,21 @@
       <LastGenOutput>CrystalReport2.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab_Menu.aspx.resx" />
+    <EmbeddedResource Include="Reports\pfrmAdvanceOutstanding.aspx.resx">
+      <DependentUpon>pfrmAdvanceOutstanding.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\pfrmNCR.aspx.resx">
+      <DependentUpon>pfrmNCR.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\pfrmOngoing_Contracts.aspx.resx">
+      <DependentUpon>pfrmOngoing_Contracts.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\pfrmTrainingDetails.aspx.resx">
+      <DependentUpon>pfrmTrainingDetails.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptOutstanding.aspx.resx">
+      <DependentUpon>rptOutstanding.aspx.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vendor\WebUserControl_Vend.ascx.resx">
       <DependentUpon>WebUserControl_Vend.ascx.cs</DependentUpon>
     </EmbeddedResource>

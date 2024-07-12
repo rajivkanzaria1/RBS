@@ -1,5 +1,6 @@
-﻿<%@ Page language="c#" Codebehind="pfrmICAccountal.aspx.cs" AutoEventWireup="false" Inherits="RBS.Reports.pfrmICAccountal" %>
+﻿
 <%@ Register TagPrefix="uc1" TagName="WebUserControl1" Src="../WebUserControl1.ascx" %>
+<%@ Page language="c#" Codebehind="pfrmICAccountal.aspx.cs" AutoEventWireup="false" Inherits="RBS.Reports.pfrmICAccountal" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
 <HTML>
   <HEAD>
@@ -24,8 +25,8 @@
 		<form id="Form1" method="post" runat="server">
 			<asp:panel id="Panel_1" style="Z-INDEX: 101; LEFT: 0px; POSITION: absolute; TOP: 8px" runat="server"
 				Visible="False" Height="1px" Width="100%">
-<asp:Button id=btnPrint runat="server" Text="Print"></asp:Button>
-<asp:Button id=btnBack runat="server" Text="Go Back"></asp:Button>
+<asp:Button id="btnPrint" runat="server" Text="Print"></asp:Button>
+<asp:Button id="btnBack" runat="server" Text="Go Back"></asp:Button>
 			</asp:panel><asp:panel id="Panel_2" style="Z-INDEX: 101; LEFT: 0px; POSITION: absolute; TOP: 8px" runat="server"
 				Height="1px" Width="100%">
 <TABLE id=Table1 style="Z-INDEX: 101; LEFT: 8px; POSITION: absolute; TOP: 8px" 

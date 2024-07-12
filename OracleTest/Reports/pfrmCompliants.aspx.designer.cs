@@ -30,6 +30,6 @@ namespace RBS.Reports
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        //protected global::RBS.WebUserControl2 WebUserControl11;
+        protected global::RBS.WebUserControl2 WebUserControl11;
     }
 }
